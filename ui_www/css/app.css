@@ -36,6 +36,17 @@
 	
 }
 
+.neticon {
+  position: relative;
+  left: 10%;
+  width: 32px;
+  height: 32px;
+
+  font-family: 'Inconsolata';
+  font-size: 48px;
+  text-align: center;
+}
+
 .clock {
 	color: #000;
 	text-align: center;

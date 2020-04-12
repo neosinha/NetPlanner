@@ -45,7 +45,8 @@ function networkInfo() {
 		var ipv4 = '';
 		var ipv6 = ''; 
 		if ('mac' in netport) {
-			mac = netport['mac']['addr']; 
+			mac = netport['mac']['addr'];
+			mac = mac.toUpperCase();
 		}
 		
 		if ('ipv4' in netport) {
@@ -57,9 +58,11 @@ function networkInfo() {
 		}
 		
 		
+		if (intf.startsWith('e')) {
+		    intf = '<img class="neticon" src="img/eth0-32x32.png">' + '<BR>'+intf + '</img>';
+		}
 		
-		
-		tbldata.push( [intf, mac, ipv4, ipv6, 'Active'] ); 
+		tbldata.push( [intf, mac.toUpperCase(), ipv4.toUpperCase(), ipv6.toUpperCase(), 'Active'] );
 	}
 	
 	var tbl = ui.table('networktable', 'striped', header, tbldata );

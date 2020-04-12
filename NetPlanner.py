@@ -7,6 +7,7 @@ Created on Oct 2, 2019
 import logging, json
 import datetime, time, os, sys, shutil
 import subprocess, argparse, yaml, re
+import base64
 
 import cherrypy as NetPlanner
 from netplanbuffers import cmdbuffers
@@ -47,17 +48,20 @@ class NetPlan(object):
         intfs = self.shellcommand(['ip', 'a'])
         ifconf = self.shellcommand(['ifconfig'])
         
-    
+
+    @NetPlanner.expose
     def loadnetplan(self):
         '''
         Load NetPlan Settings
         '''
         netyaml = '/etc/netplan/50-cloud-init.yaml'
         logging.info('Reading YAML file, %s' % (netyaml) )
+        yamlf = None
         with open(netyaml, 'r') as stream:
-                data_loaded = yaml.safe_load(stream)
-                logging.info('Reading YAML : %s' % (data_loaded))
-        
+                yamlf = yaml.safe_load(stream)
+                logging.info('Reading YAML : %s' % (yamlf))
+
+        return json.dumps(yamlf)
     
     @NetPlanner.expose
     def index(self):
@@ -80,7 +84,41 @@ class NetPlan(object):
         for ln in stdout.split('\n'): 
             print(ln)
         
-    
+
+    @NetPlanner.expose
+    def registerhost(self, appldef=None):
+        """
+        Registers a SmartDomus Appliance and generates a Segmented Network Defintion
+
+        :param appldef:
+        :return:
+        """
+        logging.info("Recieved Appliance Def: {}".format(appldef))
+        appldefs = appldef.strip()
+        print(appldef)
+        infostr = base64.b64decode(appldef+"==").decode('utf-8')
+        print(infostr)
+        infoarr = infostr.split(';')
+        for ninfo in infoarr:
+            print(ninfo)
+
+
+
+    @NetPlanner.expose
+    def getInstallScript(self):
+        """
+        Get Install Script
+        :return:
+        """
+        scrf = os.path.join(self.staticdir, 'client', 'clientsetup.sh')
+
+        return open(scrf)
+
+
+
+
+
+
     @NetPlanner.expose
     def ethinterfaces_cmd(self):
         '''
@@ -184,14 +222,14 @@ if __name__ == '__main__':
     
     port = 9005
     www = os.path.join(os.getcwd(), 'ui_www')
-    ipaddr = '127.0.0.1'
+    ipaddr = '0.0.0.0'
     dbip = '127.0.0.1'
     
     ap = argparse.ArgumentParser()  
     ap.add_argument("-p", "--port", required=False, default=6001,
                 help="Port number to start HTTPServer." )
 
-    ap.add_argument("-i", "--ipaddress", required=False, default='127.0.0.1', 
+    ap.add_argument("-i", "--ipaddress", required=False, default=ipaddr,
                 help="IP Address to start HTTPServer")
 
     

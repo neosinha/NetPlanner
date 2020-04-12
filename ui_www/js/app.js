@@ -6,8 +6,6 @@ console.log("Location: "+ server);
 
 function appInit() {
 	getSystemInfo();
-	
-	
 }
 
 function drawView() {
