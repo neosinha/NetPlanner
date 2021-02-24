@@ -6758,3 +6758,198 @@ Request Headers:
 2020-04-22 15:17:04,963 [22/Apr/2020:15:17:04] ENGINE Bus EXITING
 2020-04-22 15:17:04,963 [22/Apr/2020:15:17:04] ENGINE Bus EXITED
 2020-04-22 15:17:04,963 [22/Apr/2020:15:17:04] ENGINE Waiting for child threads to terminate...
+2021-02-24 03:27:46,695 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2021-02-24 03:27:46,696 Staring NetPlan Serverlet
+2021-02-24 03:27:46,696 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2021-02-24 03:27:46,697 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2021-02-24 03:27:46,697 NetObj: gif0, {}
+2021-02-24 03:27:46,697 NetObj: stf0, {}
+2021-02-24 03:27:46,697 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.49', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::1c8a:102:4c8b:f583%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2021-02-24 03:27:46,697 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2021-02-24 03:27:46,697 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2021-02-24 03:27:46,698 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2021-02-24 03:27:46,698 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2021-02-24 03:27:46,698 NetObj: awdl0, {'mac': {'addr': '02:96:33:4f:33:ac'}, 'ipv6': {'addr': 'fe80::96:33ff:fe4f:33ac%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:46,698 NetObj: llw0, {'mac': {'addr': '02:96:33:4f:33:ac'}, 'ipv6': {'addr': 'fe80::96:33ff:fe4f:33ac%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:46,698 NetObj: utun0, {'ipv6': {'addr': 'fe80::3453:5ad1:6cea:55c3%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:46,699 NetObj: utun1, {'ipv6': {'addr': 'fe80::a19b:c4e8:be3b:a02c%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:46,699 NetObj: utun2, {'ipv6': {'addr': 'fe80::6bb9:dd82:df47:b349%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:46,699 NetObj: utun3, {'ipv6': {'addr': 'fe80::bdd4:88f2:b7f1:459a%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:46,699 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}, 'ipv4': {'addr': '192.168.188.200', 'netmask': '255.255.255.0', 'broadcast': '192.168.188.255'}}
+2021-02-24 03:27:46,700 NetObj: utun4, {'ipv6': {'addr': 'fe80::7228:113b:88ee:2dce%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:46,700 NetObj: utun5, {'ipv6': {'addr': 'fe80::1801:6369:e632:8ca4%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:46,701 [24/Feb/2021:03:27:46] ENGINE Listening for SIGTERM.
+2021-02-24 03:27:46,701 [24/Feb/2021:03:27:46] ENGINE Listening for SIGHUP.
+2021-02-24 03:27:46,701 [24/Feb/2021:03:27:46] ENGINE Listening for SIGUSR1.
+2021-02-24 03:27:46,701 [24/Feb/2021:03:27:46] ENGINE Bus STARTING
+2021-02-24 03:27:46,702 [24/Feb/2021:03:27:46] ENGINE Started monitor thread 'Autoreloader'.
+2021-02-24 03:27:46,809 [24/Feb/2021:03:27:46] ENGINE Serving on http://0.0.0.0:6001
+2021-02-24 03:27:46,809 [24/Feb/2021:03:27:46] ENGINE Bus STARTED
+2021-02-24 03:27:50,535 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET / HTTP/1.1" 200 5603 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,548 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /css/rangeslider.css HTTP/1.1" 200 2431 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,559 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /css/bootstrap-slider.min.css HTTP/1.1" 200 9336 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,562 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /js/bootstrap-slider.min.js HTTP/1.1" 200 38636 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,562 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /css/app.css HTTP/1.1" 200 4956 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,562 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /justguage/raphael-2.1.4.min.js HTTP/1.1" 200 92764 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,563 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /justguage/justgage.js HTTP/1.1" 200 38111 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,570 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /js/sevenSeg.js HTTP/1.1" 200 11258 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,570 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /rslider/roundslider.min.css HTTP/1.1" 200 4456 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,574 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /js/bootstrapui.js HTTP/1.1" 200 19976 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,575 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /ajaxFuncs/ajaxComm.js HTTP/1.1" 200 1797 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,576 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /rslider/roundslider.min.js HTTP/1.1" 200 29113 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,577 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /js/app.js HTTP/1.1" 200 2298 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,579 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /js/views.app.js HTTP/1.1" 200 2243 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,583 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /js/mqttInteractions.js HTTP/1.1" 200 1664 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,584 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /img/prog-linear.gif HTTP/1.1" 200 2892 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,584 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /css/trafficlight.css HTTP/1.1" 200 2498 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,653 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /ajaxFuncs/ajax/ajaxWorker.js HTTP/1.1" 200 142 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,707 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /img/favicon/favicon-16x16.png HTTP/1.1" 200 1201 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,707 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /ajaxFuncs/ajax/ajaxFuncs.js HTTP/1.1" 200 247 "http://0.0.0.0:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,707 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /img/favicon/android-icon-192x192.png HTTP/1.1" 200 14819 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,707 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /img/favicon/favicon-32x32.png HTTP/1.1" 200 1732 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,709 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /img/favicon/favicon-96x96.png HTTP/1.1" 200 6088 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,714 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2021-02-24 03:27:50,714 NetObj: gif0, {}
+2021-02-24 03:27:50,714 NetObj: stf0, {}
+2021-02-24 03:27:50,715 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.49', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::1c8a:102:4c8b:f583%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2021-02-24 03:27:50,715 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2021-02-24 03:27:50,715 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2021-02-24 03:27:50,715 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2021-02-24 03:27:50,715 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2021-02-24 03:27:50,715 NetObj: awdl0, {'mac': {'addr': '02:96:33:4f:33:ac'}, 'ipv6': {'addr': 'fe80::96:33ff:fe4f:33ac%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:50,716 NetObj: llw0, {'mac': {'addr': '02:96:33:4f:33:ac'}, 'ipv6': {'addr': 'fe80::96:33ff:fe4f:33ac%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:50,716 NetObj: utun0, {'ipv6': {'addr': 'fe80::3453:5ad1:6cea:55c3%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:50,716 NetObj: utun1, {'ipv6': {'addr': 'fe80::a19b:c4e8:be3b:a02c%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:50,717 NetObj: utun2, {'ipv6': {'addr': 'fe80::6bb9:dd82:df47:b349%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:50,717 NetObj: utun3, {'ipv6': {'addr': 'fe80::bdd4:88f2:b7f1:459a%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:50,717 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}, 'ipv4': {'addr': '192.168.188.200', 'netmask': '255.255.255.0', 'broadcast': '192.168.188.255'}}
+2021-02-24 03:27:50,717 NetObj: utun4, {'ipv6': {'addr': 'fe80::7228:113b:88ee:2dce%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:50,718 NetObj: utun5, {'ipv6': {'addr': 'fe80::1801:6369:e632:8ca4%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:27:50,718 127.0.0.1 - - [24/Feb/2021:03:27:50] "POST /getsysteminfo HTTP/1.1" 200 1823 "http://0.0.0.0:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,724 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /img/big-datax64.png HTTP/1.1" 200 7336 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:27:50,724 127.0.0.1 - - [24/Feb/2021:03:27:50] "GET /img/eth0-32x32.png HTTP/1.1" 200 1981 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:20,439 127.0.0.1 - - [24/Feb/2021:03:46:20] "GET / HTTP/1.1" 200 5603 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:20,476 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2021-02-24 03:46:20,476 NetObj: gif0, {}
+2021-02-24 03:46:20,476 NetObj: stf0, {}
+2021-02-24 03:46:20,476 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.49', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::1c8a:102:4c8b:f583%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2021-02-24 03:46:20,477 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2021-02-24 03:46:20,477 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2021-02-24 03:46:20,477 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2021-02-24 03:46:20,477 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2021-02-24 03:46:20,477 NetObj: awdl0, {'mac': {'addr': '02:96:33:4f:33:ac'}, 'ipv6': {'addr': 'fe80::96:33ff:fe4f:33ac%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:20,477 NetObj: llw0, {'mac': {'addr': '02:96:33:4f:33:ac'}, 'ipv6': {'addr': 'fe80::96:33ff:fe4f:33ac%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:20,478 NetObj: utun0, {'ipv6': {'addr': 'fe80::3453:5ad1:6cea:55c3%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:20,478 NetObj: utun1, {'ipv6': {'addr': 'fe80::a19b:c4e8:be3b:a02c%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:20,478 NetObj: utun2, {'ipv6': {'addr': 'fe80::6bb9:dd82:df47:b349%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:20,478 NetObj: utun3, {'ipv6': {'addr': 'fe80::bdd4:88f2:b7f1:459a%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:20,478 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}, 'ipv4': {'addr': '192.168.188.200', 'netmask': '255.255.255.0', 'broadcast': '192.168.188.255'}}
+2021-02-24 03:46:20,479 NetObj: utun4, {'ipv6': {'addr': 'fe80::7228:113b:88ee:2dce%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:20,479 NetObj: utun5, {'ipv6': {'addr': 'fe80::1801:6369:e632:8ca4%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:20,479 127.0.0.1 - - [24/Feb/2021:03:46:20] "POST /getsysteminfo HTTP/1.1" 200 1823 "http://0.0.0.0:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,483 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET / HTTP/1.1" 200 5603 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,503 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /css/rangeslider.css HTTP/1.1" 200 2431 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,528 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /justguage/justgage.js HTTP/1.1" 200 38111 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,533 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /js/sevenSeg.js HTTP/1.1" 200 11258 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,536 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /js/bootstrap-slider.min.js HTTP/1.1" 200 38636 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,538 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /css/app.css HTTP/1.1" 200 4956 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,539 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /justguage/raphael-2.1.4.min.js HTTP/1.1" 200 92764 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,549 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /rslider/roundslider.min.css HTTP/1.1" 200 4456 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,550 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /css/bootstrap-slider.min.css HTTP/1.1" 200 9336 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,555 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /rslider/roundslider.min.js HTTP/1.1" 200 29113 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,556 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /ajaxFuncs/ajaxComm.js HTTP/1.1" 200 1797 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,563 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /js/bootstrapui.js HTTP/1.1" 200 19976 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,574 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /css/trafficlight.css HTTP/1.1" 200 2498 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,576 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /js/mqttInteractions.js HTTP/1.1" 200 1664 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,577 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /js/app.js HTTP/1.1" 200 2298 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,579 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /js/views.app.js HTTP/1.1" 200 2422 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,580 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /img/prog-linear.gif HTTP/1.1" 200 2892 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,817 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /ajaxFuncs/ajax/ajaxWorker.js HTTP/1.1" 200 142 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,827 127.0.0.1 - - [24/Feb/2021:03:46:27] "GET /ajaxFuncs/ajax/ajaxFuncs.js HTTP/1.1" 200 247 "http://0.0.0.0:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:27,831 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2021-02-24 03:46:27,831 NetObj: gif0, {}
+2021-02-24 03:46:27,832 NetObj: stf0, {}
+2021-02-24 03:46:27,832 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.49', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::1c8a:102:4c8b:f583%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2021-02-24 03:46:27,832 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2021-02-24 03:46:27,833 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2021-02-24 03:46:27,833 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2021-02-24 03:46:27,833 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2021-02-24 03:46:27,834 NetObj: awdl0, {'mac': {'addr': '02:96:33:4f:33:ac'}, 'ipv6': {'addr': 'fe80::96:33ff:fe4f:33ac%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:27,834 NetObj: llw0, {'mac': {'addr': '02:96:33:4f:33:ac'}, 'ipv6': {'addr': 'fe80::96:33ff:fe4f:33ac%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:27,835 NetObj: utun0, {'ipv6': {'addr': 'fe80::3453:5ad1:6cea:55c3%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:27,835 NetObj: utun1, {'ipv6': {'addr': 'fe80::a19b:c4e8:be3b:a02c%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:27,836 NetObj: utun2, {'ipv6': {'addr': 'fe80::6bb9:dd82:df47:b349%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:27,836 NetObj: utun3, {'ipv6': {'addr': 'fe80::bdd4:88f2:b7f1:459a%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:27,836 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}, 'ipv4': {'addr': '192.168.188.200', 'netmask': '255.255.255.0', 'broadcast': '192.168.188.255'}}
+2021-02-24 03:46:27,837 NetObj: utun4, {'ipv6': {'addr': 'fe80::7228:113b:88ee:2dce%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:27,837 NetObj: utun5, {'ipv6': {'addr': 'fe80::1801:6369:e632:8ca4%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:27,838 127.0.0.1 - - [24/Feb/2021:03:46:27] "POST /getsysteminfo HTTP/1.1" 200 1823 "http://0.0.0.0:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:33,432 127.0.0.1 - - [24/Feb/2021:03:46:33] "GET /img/favicon/favicon-96x96.png HTTP/1.1" 200 6088 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:33,433 127.0.0.1 - - [24/Feb/2021:03:46:33] "GET /img/favicon/android-icon-192x192.png HTTP/1.1" 200 14819 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:33,433 127.0.0.1 - - [24/Feb/2021:03:46:33] "GET /img/favicon/favicon-16x16.png HTTP/1.1" 200 1201 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:33,435 127.0.0.1 - - [24/Feb/2021:03:46:33] "GET /img/favicon/favicon-32x32.png HTTP/1.1" 200 1732 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:58,275 127.0.0.1 - - [24/Feb/2021:03:46:58] "GET / HTTP/1.1" 200 5603 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:58,361 127.0.0.1 - - [24/Feb/2021:03:46:58] "GET /js/views.app.js HTTP/1.1" 200 2424 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:58,429 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2021-02-24 03:46:58,430 NetObj: gif0, {}
+2021-02-24 03:46:58,430 NetObj: stf0, {}
+2021-02-24 03:46:58,430 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.49', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::1c8a:102:4c8b:f583%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2021-02-24 03:46:58,430 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2021-02-24 03:46:58,430 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2021-02-24 03:46:58,430 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2021-02-24 03:46:58,431 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2021-02-24 03:46:58,431 NetObj: awdl0, {'mac': {'addr': '02:96:33:4f:33:ac'}, 'ipv6': {'addr': 'fe80::96:33ff:fe4f:33ac%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:58,431 NetObj: llw0, {'mac': {'addr': '02:96:33:4f:33:ac'}, 'ipv6': {'addr': 'fe80::96:33ff:fe4f:33ac%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:58,431 NetObj: utun0, {'ipv6': {'addr': 'fe80::3453:5ad1:6cea:55c3%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:58,432 NetObj: utun1, {'ipv6': {'addr': 'fe80::a19b:c4e8:be3b:a02c%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:58,432 NetObj: utun2, {'ipv6': {'addr': 'fe80::6bb9:dd82:df47:b349%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:58,432 NetObj: utun3, {'ipv6': {'addr': 'fe80::bdd4:88f2:b7f1:459a%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:58,432 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}, 'ipv4': {'addr': '192.168.188.200', 'netmask': '255.255.255.0', 'broadcast': '192.168.188.255'}}
+2021-02-24 03:46:58,432 NetObj: utun4, {'ipv6': {'addr': 'fe80::7228:113b:88ee:2dce%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:58,433 NetObj: utun5, {'ipv6': {'addr': 'fe80::1801:6369:e632:8ca4%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:46:58,433 127.0.0.1 - - [24/Feb/2021:03:46:58] "POST /getsysteminfo HTTP/1.1" 200 1823 "http://0.0.0.0:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:58,441 127.0.0.1 - - [24/Feb/2021:03:46:58] "GET /img/big-datax64.png HTTP/1.1" 200 7336 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:46:58,445 127.0.0.1 - - [24/Feb/2021:03:46:58] "GET /img/eth0-32x32.png HTTP/1.1" 200 1981 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,166 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET / HTTP/1.1" 200 5603 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,185 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /css/rangeslider.css HTTP/1.1" 200 2431 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,205 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /css/app.css HTTP/1.1" 200 4956 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,206 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /justguage/justgage.js HTTP/1.1" 200 38111 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,207 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /js/bootstrap-slider.min.js HTTP/1.1" 200 38636 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,208 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /js/sevenSeg.js HTTP/1.1" 200 11258 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,210 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /justguage/raphael-2.1.4.min.js HTTP/1.1" 200 92764 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,217 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /css/bootstrap-slider.min.css HTTP/1.1" 200 9336 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,228 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /rslider/roundslider.min.css HTTP/1.1" 200 4456 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,230 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /ajaxFuncs/ajaxComm.js HTTP/1.1" 200 1797 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,230 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /js/bootstrapui.js HTTP/1.1" 200 19976 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,233 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /rslider/roundslider.min.js HTTP/1.1" 200 29113 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,235 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /js/app.js HTTP/1.1" 200 2298 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,238 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /js/views.app.js HTTP/1.1" 200 2459 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,241 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /css/trafficlight.css HTTP/1.1" 200 2498 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,242 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /js/mqttInteractions.js HTTP/1.1" 200 1664 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,243 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /img/prog-linear.gif HTTP/1.1" 200 2892 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,337 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /ajaxFuncs/ajax/ajaxWorker.js HTTP/1.1" 200 142 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,355 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /ajaxFuncs/ajax/ajaxFuncs.js HTTP/1.1" 200 247 "http://0.0.0.0:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,366 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2021-02-24 03:48:12,366 NetObj: gif0, {}
+2021-02-24 03:48:12,366 NetObj: stf0, {}
+2021-02-24 03:48:12,367 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.49', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::1c8a:102:4c8b:f583%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2021-02-24 03:48:12,370 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2021-02-24 03:48:12,371 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2021-02-24 03:48:12,372 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2021-02-24 03:48:12,376 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2021-02-24 03:48:12,378 NetObj: awdl0, {'mac': {'addr': '02:96:33:4f:33:ac'}, 'ipv6': {'addr': 'fe80::96:33ff:fe4f:33ac%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:48:12,380 NetObj: llw0, {'mac': {'addr': '02:96:33:4f:33:ac'}, 'ipv6': {'addr': 'fe80::96:33ff:fe4f:33ac%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:48:12,380 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /img/favicon/android-icon-192x192.png HTTP/1.1" 200 14819 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,381 NetObj: utun0, {'ipv6': {'addr': 'fe80::3453:5ad1:6cea:55c3%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:48:12,381 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /img/favicon/favicon-32x32.png HTTP/1.1" 200 1732 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,381 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /img/favicon/favicon-16x16.png HTTP/1.1" 200 1201 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,383 NetObj: utun1, {'ipv6': {'addr': 'fe80::a19b:c4e8:be3b:a02c%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:48:12,383 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /img/favicon/favicon-96x96.png HTTP/1.1" 200 6088 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,384 NetObj: utun2, {'ipv6': {'addr': 'fe80::6bb9:dd82:df47:b349%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:48:12,387 NetObj: utun3, {'ipv6': {'addr': 'fe80::bdd4:88f2:b7f1:459a%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:48:12,387 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}, 'ipv4': {'addr': '192.168.188.200', 'netmask': '255.255.255.0', 'broadcast': '192.168.188.255'}}
+2021-02-24 03:48:12,388 NetObj: utun4, {'ipv6': {'addr': 'fe80::7228:113b:88ee:2dce%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:48:12,388 NetObj: utun5, {'ipv6': {'addr': 'fe80::1801:6369:e632:8ca4%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2021-02-24 03:48:12,389 127.0.0.1 - - [24/Feb/2021:03:48:12] "POST /getsysteminfo HTTP/1.1" 200 1823 "http://0.0.0.0:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,396 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /img/big-datax64.png HTTP/1.1" 200 7336 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+2021-02-24 03:48:12,398 127.0.0.1 - - [24/Feb/2021:03:48:12] "GET /img/eth0-32x32.png HTTP/1.1" 200 1981 "http://0.0.0.0:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
