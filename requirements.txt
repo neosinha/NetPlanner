@@ -1,4 +1,6 @@
 ###### Requirements without Version Specifiers ######`
 cherrypy
-yaml
 netifaces
+PyYAML
+psutil
+Jinja2

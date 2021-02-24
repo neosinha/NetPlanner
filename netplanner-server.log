@@ -5712,3 +5712,1049 @@ Request Headers:
 2020-04-12 12:23:06,726 [12/Apr/2020:12:23:06] ENGINE Started monitor thread 'Autoreloader'.
 2020-04-12 12:23:06,836 [12/Apr/2020:12:23:06] ENGINE Serving on http://0.0.0.0:6001
 2020-04-12 12:23:06,837 [12/Apr/2020:12:23:06] ENGINE Bus STARTED
+2020-04-12 16:34:13,077 [12/Apr/2020:16:34:13] ENGINE Keyboard Interrupt: shutting down bus
+2020-04-12 16:34:13,078 [12/Apr/2020:16:34:13] ENGINE Bus STOPPING
+2020-04-12 16:34:13,081 [12/Apr/2020:16:34:13] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-12 16:34:13,081 [12/Apr/2020:16:34:13] ENGINE Stopped thread 'Autoreloader'.
+2020-04-12 16:34:13,081 [12/Apr/2020:16:34:13] ENGINE Bus STOPPED
+2020-04-12 16:34:13,082 [12/Apr/2020:16:34:13] ENGINE Bus EXITING
+2020-04-12 16:34:13,082 [12/Apr/2020:16:34:13] ENGINE Bus EXITED
+2020-04-12 16:34:13,082 [12/Apr/2020:16:34:13] ENGINE Waiting for child threads to terminate...
+2020-04-12 23:45:03,059 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-12 23:45:03,059 Staring NetPlan Serverlet
+2020-04-12 23:45:03,059 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-12 23:45:03,060 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-12 23:45:03,060 NetObj: gif0, {}
+2020-04-12 23:45:03,060 NetObj: stf0, {}
+2020-04-12 23:45:03,061 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-12 23:45:03,061 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-12 23:45:03,061 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-12 23:45:03,061 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-12 23:45:03,061 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-12 23:45:03,061 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:45:03,062 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:45:03,062 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:45:03,062 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:45:03,062 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-12 23:45:03,062 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:45:03,063 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:45:03,063 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:45:03,063 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:45:03,063 [12/Apr/2020:23:45:03] ENGINE Listening for SIGTERM.
+2020-04-12 23:45:03,063 [12/Apr/2020:23:45:03] ENGINE Listening for SIGHUP.
+2020-04-12 23:45:03,064 [12/Apr/2020:23:45:03] ENGINE Listening for SIGUSR1.
+2020-04-12 23:45:03,064 [12/Apr/2020:23:45:03] ENGINE Bus STARTING
+2020-04-12 23:45:03,064 [12/Apr/2020:23:45:03] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-12 23:45:03,171 [12/Apr/2020:23:45:03] ENGINE Serving on http://0.0.0.0:6001
+2020-04-12 23:45:03,172 [12/Apr/2020:23:45:03] ENGINE Bus STARTED
+2020-04-12 23:57:34,933 [12/Apr/2020:23:57:34] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-12 23:57:34,933 [12/Apr/2020:23:57:34] ENGINE Stopped thread 'Autoreloader'.
+2020-04-12 23:57:34,933 [12/Apr/2020:23:57:34] ENGINE Bus STOPPING
+2020-04-12 23:57:34,935 [12/Apr/2020:23:57:34] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-12 23:57:34,935 [12/Apr/2020:23:57:34] ENGINE Bus STOPPED
+2020-04-12 23:57:34,935 [12/Apr/2020:23:57:34] ENGINE Bus EXITING
+2020-04-12 23:57:34,935 [12/Apr/2020:23:57:34] ENGINE Bus EXITED
+2020-04-12 23:57:34,989 [12/Apr/2020:23:57:34] ENGINE Waiting for child threads to terminate...
+2020-04-12 23:57:34,991 [12/Apr/2020:23:57:34] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-12 23:57:35,993 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-12 23:57:35,993 Staring NetPlan Serverlet
+2020-04-12 23:57:35,994 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-12 23:57:35,994 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-12 23:57:35,995 NetObj: gif0, {}
+2020-04-12 23:57:35,995 NetObj: stf0, {}
+2020-04-12 23:57:35,995 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-12 23:57:35,995 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-12 23:57:35,995 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-12 23:57:35,995 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-12 23:57:35,995 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-12 23:57:35,996 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:57:35,996 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:57:35,996 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:57:35,996 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:57:35,996 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-12 23:57:35,997 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:57:35,997 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:57:35,997 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:57:35,997 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-12 23:57:35,998 [12/Apr/2020:23:57:35] ENGINE Listening for SIGTERM.
+2020-04-12 23:57:35,998 [12/Apr/2020:23:57:35] ENGINE Listening for SIGHUP.
+2020-04-12 23:57:35,998 [12/Apr/2020:23:57:35] ENGINE Listening for SIGUSR1.
+2020-04-12 23:57:35,998 [12/Apr/2020:23:57:35] ENGINE Bus STARTING
+2020-04-12 23:57:35,999 [12/Apr/2020:23:57:35] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-12 23:57:36,106 [12/Apr/2020:23:57:36] ENGINE Serving on http://0.0.0.0:6001
+2020-04-12 23:57:36,106 [12/Apr/2020:23:57:36] ENGINE Bus STARTED
+2020-04-13 00:02:30,395 [13/Apr/2020:00:02:30] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 00:02:30,395 [13/Apr/2020:00:02:30] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 00:02:30,395 [13/Apr/2020:00:02:30] ENGINE Bus STOPPING
+2020-04-13 00:02:30,397 [13/Apr/2020:00:02:30] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 00:02:30,397 [13/Apr/2020:00:02:30] ENGINE Bus STOPPED
+2020-04-13 00:02:30,397 [13/Apr/2020:00:02:30] ENGINE Bus EXITING
+2020-04-13 00:02:30,397 [13/Apr/2020:00:02:30] ENGINE Bus EXITED
+2020-04-13 00:02:30,451 [13/Apr/2020:00:02:30] ENGINE Waiting for child threads to terminate...
+2020-04-13 00:02:30,452 [13/Apr/2020:00:02:30] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 00:02:31,253 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 00:02:31,253 Staring NetPlan Serverlet
+2020-04-13 00:02:31,253 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 00:02:31,254 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 00:02:31,254 NetObj: gif0, {}
+2020-04-13 00:02:31,254 NetObj: stf0, {}
+2020-04-13 00:02:31,255 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 00:02:31,255 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 00:02:31,255 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 00:02:31,255 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 00:02:31,255 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 00:02:31,255 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:02:31,256 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:02:31,256 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:02:31,256 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:02:31,256 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 00:02:31,256 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:02:31,256 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:02:31,257 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:02:31,257 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:02:31,257 [13/Apr/2020:00:02:31] ENGINE Listening for SIGTERM.
+2020-04-13 00:02:31,257 [13/Apr/2020:00:02:31] ENGINE Listening for SIGHUP.
+2020-04-13 00:02:31,258 [13/Apr/2020:00:02:31] ENGINE Listening for SIGUSR1.
+2020-04-13 00:02:31,258 [13/Apr/2020:00:02:31] ENGINE Bus STARTING
+2020-04-13 00:02:31,258 [13/Apr/2020:00:02:31] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 00:02:31,372 [13/Apr/2020:00:02:31] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 00:02:31,373 [13/Apr/2020:00:02:31] ENGINE Bus STARTED
+2020-04-13 00:18:41,162 172.16.10.74 - - [13/Apr/2020:00:18:41] "GET /getInstallScript HTTP/1.1" 200 817 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 00:19:03,859 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 00:19:03,860 172.16.10.74 - - [13/Apr/2020:00:19:03] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 00:19:03,896 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 00:19:03,897 172.16.10.74 - - [13/Apr/2020:00:19:03] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 00:20:06,457 [13/Apr/2020:00:20:06] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 00:20:06,457 [13/Apr/2020:00:20:06] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 00:20:06,457 [13/Apr/2020:00:20:06] ENGINE Bus STOPPING
+2020-04-13 00:20:06,459 [13/Apr/2020:00:20:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 00:20:06,459 [13/Apr/2020:00:20:06] ENGINE Bus STOPPED
+2020-04-13 00:20:06,459 [13/Apr/2020:00:20:06] ENGINE Bus EXITING
+2020-04-13 00:20:06,459 [13/Apr/2020:00:20:06] ENGINE Bus EXITED
+2020-04-13 00:20:06,516 [13/Apr/2020:00:20:06] ENGINE Waiting for child threads to terminate...
+2020-04-13 00:20:06,517 [13/Apr/2020:00:20:06] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 00:20:07,520 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 00:20:07,520 Staring NetPlan Serverlet
+2020-04-13 00:20:07,520 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 00:20:07,521 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 00:20:07,521 NetObj: gif0, {}
+2020-04-13 00:20:07,521 NetObj: stf0, {}
+2020-04-13 00:20:07,521 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 00:20:07,521 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 00:20:07,522 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 00:20:07,522 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 00:20:07,522 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 00:20:07,522 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:07,522 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:07,523 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:07,523 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:07,523 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 00:20:07,523 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:07,524 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:07,524 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:07,524 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:07,524 [13/Apr/2020:00:20:07] ENGINE Listening for SIGTERM.
+2020-04-13 00:20:07,524 [13/Apr/2020:00:20:07] ENGINE Listening for SIGHUP.
+2020-04-13 00:20:07,525 [13/Apr/2020:00:20:07] ENGINE Listening for SIGUSR1.
+2020-04-13 00:20:07,525 [13/Apr/2020:00:20:07] ENGINE Bus STARTING
+2020-04-13 00:20:07,525 [13/Apr/2020:00:20:07] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 00:20:07,637 [13/Apr/2020:00:20:07] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 00:20:07,637 [13/Apr/2020:00:20:07] ENGINE Bus STARTED
+2020-04-13 00:20:12,359 [13/Apr/2020:00:20:12] ENGINE Keyboard Interrupt: shutting down bus
+2020-04-13 00:20:12,359 [13/Apr/2020:00:20:12] ENGINE Bus STOPPING
+2020-04-13 00:20:12,361 [13/Apr/2020:00:20:12] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 00:20:12,361 [13/Apr/2020:00:20:12] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 00:20:12,361 [13/Apr/2020:00:20:12] ENGINE Bus STOPPED
+2020-04-13 00:20:12,361 [13/Apr/2020:00:20:12] ENGINE Bus EXITING
+2020-04-13 00:20:12,361 [13/Apr/2020:00:20:12] ENGINE Bus EXITED
+2020-04-13 00:20:12,361 [13/Apr/2020:00:20:12] ENGINE Waiting for child threads to terminate...
+2020-04-13 00:20:15,232 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 00:20:15,232 Staring NetPlan Serverlet
+2020-04-13 00:20:15,233 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 00:20:15,233 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 00:20:15,234 NetObj: gif0, {}
+2020-04-13 00:20:15,234 NetObj: stf0, {}
+2020-04-13 00:20:15,234 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 00:20:15,234 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 00:20:15,234 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 00:20:15,234 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 00:20:15,235 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 00:20:15,235 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:15,235 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:15,235 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:15,235 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:15,236 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 00:20:15,236 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:15,236 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:15,236 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:15,237 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:20:15,237 [13/Apr/2020:00:20:15] ENGINE Listening for SIGTERM.
+2020-04-13 00:20:15,237 [13/Apr/2020:00:20:15] ENGINE Listening for SIGHUP.
+2020-04-13 00:20:15,237 [13/Apr/2020:00:20:15] ENGINE Listening for SIGUSR1.
+2020-04-13 00:20:15,237 [13/Apr/2020:00:20:15] ENGINE Bus STARTING
+2020-04-13 00:20:15,238 [13/Apr/2020:00:20:15] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 00:20:15,344 [13/Apr/2020:00:20:15] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 00:20:15,344 [13/Apr/2020:00:20:15] ENGINE Bus STARTED
+2020-04-13 00:20:22,066 172.16.10.74 - - [13/Apr/2020:00:20:22] "GET /getInstallScript HTTP/1.1" 200 830 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 00:20:36,362 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 00:20:36,363 172.16.10.74 - - [13/Apr/2020:00:20:36] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 00:20:37,592 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 00:20:37,593 172.16.10.74 - - [13/Apr/2020:00:20:37] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 00:21:11,671 [13/Apr/2020:00:21:11] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 00:21:11,671 [13/Apr/2020:00:21:11] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 00:21:11,672 [13/Apr/2020:00:21:11] ENGINE Bus STOPPING
+2020-04-13 00:21:11,673 [13/Apr/2020:00:21:11] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 00:21:11,673 [13/Apr/2020:00:21:11] ENGINE Bus STOPPED
+2020-04-13 00:21:11,673 [13/Apr/2020:00:21:11] ENGINE Bus EXITING
+2020-04-13 00:21:11,674 [13/Apr/2020:00:21:11] ENGINE Bus EXITED
+2020-04-13 00:21:11,739 [13/Apr/2020:00:21:11] ENGINE Waiting for child threads to terminate...
+2020-04-13 00:21:11,740 [13/Apr/2020:00:21:11] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 00:21:12,403 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 00:21:12,403 Staring NetPlan Serverlet
+2020-04-13 00:21:12,403 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 00:21:12,404 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 00:21:12,404 NetObj: gif0, {}
+2020-04-13 00:21:12,404 NetObj: stf0, {}
+2020-04-13 00:21:12,404 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 00:21:12,404 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 00:21:12,405 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 00:21:12,405 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 00:21:12,405 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 00:21:12,405 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:21:12,405 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:21:12,405 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:21:12,406 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:21:12,406 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 00:21:12,406 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:21:12,406 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:21:12,406 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:21:12,407 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 00:21:12,407 [13/Apr/2020:00:21:12] ENGINE Listening for SIGTERM.
+2020-04-13 00:21:12,407 [13/Apr/2020:00:21:12] ENGINE Listening for SIGHUP.
+2020-04-13 00:21:12,407 [13/Apr/2020:00:21:12] ENGINE Listening for SIGUSR1.
+2020-04-13 00:21:12,408 [13/Apr/2020:00:21:12] ENGINE Bus STARTING
+2020-04-13 00:21:12,408 [13/Apr/2020:00:21:12] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 00:21:12,514 [13/Apr/2020:00:21:12] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 00:21:12,514 [13/Apr/2020:00:21:12] ENGINE Bus STARTED
+2020-04-13 00:21:17,490 172.16.10.74 - - [13/Apr/2020:00:21:17] "GET /getInstallScript HTTP/1.1" 200 830 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 00:21:31,352 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 00:21:31,352 172.16.10.74 - - [13/Apr/2020:00:21:31] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 00:21:32,616 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 00:21:32,617 172.16.10.74 - - [13/Apr/2020:00:21:32] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 22:33:35,365 [13/Apr/2020:22:33:35] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 22:33:35,367 [13/Apr/2020:22:33:35] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 22:33:35,368 [13/Apr/2020:22:33:35] ENGINE Bus STOPPING
+2020-04-13 22:33:35,371 [13/Apr/2020:22:33:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 22:33:35,371 [13/Apr/2020:22:33:35] ENGINE Bus STOPPED
+2020-04-13 22:33:35,371 [13/Apr/2020:22:33:35] ENGINE Bus EXITING
+2020-04-13 22:33:35,371 [13/Apr/2020:22:33:35] ENGINE Bus EXITED
+2020-04-13 22:33:35,421 [13/Apr/2020:22:33:35] ENGINE Waiting for child threads to terminate...
+2020-04-13 22:33:35,423 [13/Apr/2020:22:33:35] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 22:43:33,329 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 22:43:33,329 Staring NetPlan Serverlet
+2020-04-13 22:43:33,330 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 22:43:33,330 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 22:43:33,331 NetObj: gif0, {}
+2020-04-13 22:43:33,331 NetObj: stf0, {}
+2020-04-13 22:43:33,331 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 22:43:33,331 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 22:43:33,331 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 22:43:33,331 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 22:43:33,332 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 22:43:33,332 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 22:43:33,332 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 22:43:33,333 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 22:43:33,333 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 22:43:33,334 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 22:43:33,334 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 22:43:33,334 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 22:43:33,334 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 22:43:33,335 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 22:43:33,335 [13/Apr/2020:22:43:33] ENGINE Listening for SIGTERM.
+2020-04-13 22:43:33,335 [13/Apr/2020:22:43:33] ENGINE Listening for SIGHUP.
+2020-04-13 22:43:33,335 [13/Apr/2020:22:43:33] ENGINE Listening for SIGUSR1.
+2020-04-13 22:43:33,336 [13/Apr/2020:22:43:33] ENGINE Bus STARTING
+2020-04-13 22:43:33,337 [13/Apr/2020:22:43:33] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 22:43:33,447 [13/Apr/2020:22:43:33] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 22:43:33,447 [13/Apr/2020:22:43:33] ENGINE Bus STARTED
+2020-04-13 22:43:51,788 172.16.10.74 - - [13/Apr/2020:22:43:51] "GET /getInstallScript HTTP/1.1" 200 830 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 22:44:06,487 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 22:44:06,488 172.16.10.74 - - [13/Apr/2020:22:44:06] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 22:44:07,794 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 22:44:07,799 172.16.10.74 - - [13/Apr/2020:22:44:07] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 22:44:53,794 172.16.10.74 - - [13/Apr/2020:22:44:53] "GET /getInstallScript HTTP/1.1" 200 830 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 22:45:07,978 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 22:45:07,979 172.16.10.74 - - [13/Apr/2020:22:45:07] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 22:45:09,206 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 22:45:09,209 172.16.10.74 - - [13/Apr/2020:22:45:09] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 22:45:42,110 172.16.10.74 - - [13/Apr/2020:22:45:42] "GET /getInstallScript HTTP/1.1" 200 830 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 22:45:55,356 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 22:45:55,357 172.16.10.74 - - [13/Apr/2020:22:45:55] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 22:45:56,416 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 22:45:56,419 172.16.10.74 - - [13/Apr/2020:22:45:56] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 22:57:44,161 172.16.10.74 - - [13/Apr/2020:22:57:44] "GET /getInstallScript HTTP/1.1" 200 830 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 22:57:57,471 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 22:57:57,471 172.16.10.74 - - [13/Apr/2020:22:57:57] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 22:57:58,757 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 22:57:58,761 172.16.10.74 - - [13/Apr/2020:22:57:58] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:02:19,178 [13/Apr/2020:23:02:19] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:02:19,180 [13/Apr/2020:23:02:19] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:02:19,180 [13/Apr/2020:23:02:19] ENGINE Bus STOPPING
+2020-04-13 23:02:19,183 [13/Apr/2020:23:02:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:02:19,183 [13/Apr/2020:23:02:19] ENGINE Bus STOPPED
+2020-04-13 23:02:19,183 [13/Apr/2020:23:02:19] ENGINE Bus EXITING
+2020-04-13 23:02:19,183 [13/Apr/2020:23:02:19] ENGINE Bus EXITED
+2020-04-13 23:02:19,245 [13/Apr/2020:23:02:19] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:02:19,247 [13/Apr/2020:23:02:19] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:02:20,499 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:02:20,500 Staring NetPlan Serverlet
+2020-04-13 23:02:20,500 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:02:20,510 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:02:20,510 NetObj: gif0, {}
+2020-04-13 23:02:20,511 NetObj: stf0, {}
+2020-04-13 23:02:20,511 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:02:20,511 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:02:20,512 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:02:20,512 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:02:20,512 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:02:20,513 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:20,513 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:20,514 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:20,514 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:20,514 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:02:20,515 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:20,515 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:20,515 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:20,516 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:20,516 [13/Apr/2020:23:02:20] ENGINE Listening for SIGTERM.
+2020-04-13 23:02:20,517 [13/Apr/2020:23:02:20] ENGINE Listening for SIGHUP.
+2020-04-13 23:02:20,517 [13/Apr/2020:23:02:20] ENGINE Listening for SIGUSR1.
+2020-04-13 23:02:20,517 [13/Apr/2020:23:02:20] ENGINE Bus STARTING
+2020-04-13 23:02:20,518 [13/Apr/2020:23:02:20] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:02:20,624 [13/Apr/2020:23:02:20] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:02:20,625 [13/Apr/2020:23:02:20] ENGINE Bus STARTED
+2020-04-13 23:02:29,585 [13/Apr/2020:23:02:29] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:02:29,585 [13/Apr/2020:23:02:29] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:02:29,586 [13/Apr/2020:23:02:29] ENGINE Bus STOPPING
+2020-04-13 23:02:29,587 [13/Apr/2020:23:02:29] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:02:29,587 [13/Apr/2020:23:02:29] ENGINE Bus STOPPED
+2020-04-13 23:02:29,587 [13/Apr/2020:23:02:29] ENGINE Bus EXITING
+2020-04-13 23:02:29,587 [13/Apr/2020:23:02:29] ENGINE Bus EXITED
+2020-04-13 23:02:29,675 [13/Apr/2020:23:02:29] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:02:29,675 [13/Apr/2020:23:02:29] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:02:30,253 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:02:30,253 Staring NetPlan Serverlet
+2020-04-13 23:02:30,253 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:02:30,254 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:02:30,254 NetObj: gif0, {}
+2020-04-13 23:02:30,254 NetObj: stf0, {}
+2020-04-13 23:02:30,254 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:02:30,254 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:02:30,255 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:02:30,255 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:02:30,255 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:02:30,255 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:30,255 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:30,255 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:30,256 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:30,256 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:02:30,256 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:30,256 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:30,256 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:30,257 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:30,257 [13/Apr/2020:23:02:30] ENGINE Listening for SIGTERM.
+2020-04-13 23:02:30,257 [13/Apr/2020:23:02:30] ENGINE Listening for SIGHUP.
+2020-04-13 23:02:30,257 [13/Apr/2020:23:02:30] ENGINE Listening for SIGUSR1.
+2020-04-13 23:02:30,257 [13/Apr/2020:23:02:30] ENGINE Bus STARTING
+2020-04-13 23:02:30,258 [13/Apr/2020:23:02:30] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:02:30,365 [13/Apr/2020:23:02:30] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:02:30,366 [13/Apr/2020:23:02:30] ENGINE Bus STARTED
+2020-04-13 23:02:37,319 [13/Apr/2020:23:02:37] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:02:37,319 [13/Apr/2020:23:02:37] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:02:37,319 [13/Apr/2020:23:02:37] ENGINE Bus STOPPING
+2020-04-13 23:02:37,321 [13/Apr/2020:23:02:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:02:37,321 [13/Apr/2020:23:02:37] ENGINE Bus STOPPED
+2020-04-13 23:02:37,321 [13/Apr/2020:23:02:37] ENGINE Bus EXITING
+2020-04-13 23:02:37,321 [13/Apr/2020:23:02:37] ENGINE Bus EXITED
+2020-04-13 23:02:37,377 [13/Apr/2020:23:02:37] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:02:37,377 [13/Apr/2020:23:02:37] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:02:37,984 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:02:37,984 Staring NetPlan Serverlet
+2020-04-13 23:02:37,984 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:02:37,985 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:02:37,985 NetObj: gif0, {}
+2020-04-13 23:02:37,985 NetObj: stf0, {}
+2020-04-13 23:02:37,985 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:02:37,986 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:02:37,986 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:02:37,986 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:02:37,986 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:02:37,986 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:37,986 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:37,987 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:37,987 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:37,987 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:02:37,987 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:37,987 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:37,987 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:37,988 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:02:37,988 [13/Apr/2020:23:02:37] ENGINE Listening for SIGTERM.
+2020-04-13 23:02:37,988 [13/Apr/2020:23:02:37] ENGINE Listening for SIGHUP.
+2020-04-13 23:02:37,988 [13/Apr/2020:23:02:37] ENGINE Listening for SIGUSR1.
+2020-04-13 23:02:37,988 [13/Apr/2020:23:02:37] ENGINE Bus STARTING
+2020-04-13 23:02:37,989 [13/Apr/2020:23:02:37] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:02:38,098 [13/Apr/2020:23:02:38] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:02:38,098 [13/Apr/2020:23:02:38] ENGINE Bus STARTED
+2020-04-13 23:06:41,195 [13/Apr/2020:23:06:41] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:06:41,196 [13/Apr/2020:23:06:41] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:06:41,196 [13/Apr/2020:23:06:41] ENGINE Bus STOPPING
+2020-04-13 23:06:41,198 [13/Apr/2020:23:06:41] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:06:41,198 [13/Apr/2020:23:06:41] ENGINE Bus STOPPED
+2020-04-13 23:06:41,198 [13/Apr/2020:23:06:41] ENGINE Bus EXITING
+2020-04-13 23:06:41,198 [13/Apr/2020:23:06:41] ENGINE Bus EXITED
+2020-04-13 23:06:41,297 [13/Apr/2020:23:06:41] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:06:41,297 [13/Apr/2020:23:06:41] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:06:41,868 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:06:41,869 Staring NetPlan Serverlet
+2020-04-13 23:06:41,869 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:06:41,870 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:06:41,870 NetObj: gif0, {}
+2020-04-13 23:06:41,870 NetObj: stf0, {}
+2020-04-13 23:06:41,870 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:06:41,870 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:06:41,870 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:06:41,871 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:06:41,871 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:06:41,871 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:06:41,871 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:06:41,871 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:06:41,872 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:06:41,872 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:06:41,872 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:06:41,872 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:06:41,872 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:06:41,873 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:06:41,873 [13/Apr/2020:23:06:41] ENGINE Listening for SIGTERM.
+2020-04-13 23:06:41,873 [13/Apr/2020:23:06:41] ENGINE Listening for SIGHUP.
+2020-04-13 23:06:41,873 [13/Apr/2020:23:06:41] ENGINE Listening for SIGUSR1.
+2020-04-13 23:06:41,873 [13/Apr/2020:23:06:41] ENGINE Bus STARTING
+2020-04-13 23:06:41,874 [13/Apr/2020:23:06:41] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:06:41,979 [13/Apr/2020:23:06:41] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:06:41,979 [13/Apr/2020:23:06:41] ENGINE Bus STARTED
+2020-04-13 23:07:25,266 [13/Apr/2020:23:07:25] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:07:25,266 [13/Apr/2020:23:07:25] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:07:25,266 [13/Apr/2020:23:07:25] ENGINE Bus STOPPING
+2020-04-13 23:07:25,268 [13/Apr/2020:23:07:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:07:25,268 [13/Apr/2020:23:07:25] ENGINE Bus STOPPED
+2020-04-13 23:07:25,268 [13/Apr/2020:23:07:25] ENGINE Bus EXITING
+2020-04-13 23:07:25,268 [13/Apr/2020:23:07:25] ENGINE Bus EXITED
+2020-04-13 23:07:25,358 [13/Apr/2020:23:07:25] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:07:25,358 [13/Apr/2020:23:07:25] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:07:25,911 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:07:25,911 Staring NetPlan Serverlet
+2020-04-13 23:07:25,911 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:07:25,912 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:07:25,912 NetObj: gif0, {}
+2020-04-13 23:07:25,912 NetObj: stf0, {}
+2020-04-13 23:07:25,913 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:07:25,913 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:07:25,913 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:07:25,914 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:07:25,914 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:07:25,914 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:25,914 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:25,915 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:25,915 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:25,915 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:07:25,915 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:25,915 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:25,916 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:25,916 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:25,916 [13/Apr/2020:23:07:25] ENGINE Listening for SIGTERM.
+2020-04-13 23:07:25,916 [13/Apr/2020:23:07:25] ENGINE Listening for SIGHUP.
+2020-04-13 23:07:25,916 [13/Apr/2020:23:07:25] ENGINE Listening for SIGUSR1.
+2020-04-13 23:07:25,917 [13/Apr/2020:23:07:25] ENGINE Bus STARTING
+2020-04-13 23:07:25,917 [13/Apr/2020:23:07:25] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:07:26,025 [13/Apr/2020:23:07:26] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:07:26,026 [13/Apr/2020:23:07:26] ENGINE Bus STARTED
+2020-04-13 23:07:45,057 [13/Apr/2020:23:07:45] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:07:45,058 [13/Apr/2020:23:07:45] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:07:45,058 [13/Apr/2020:23:07:45] ENGINE Bus STOPPING
+2020-04-13 23:07:45,060 [13/Apr/2020:23:07:45] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:07:45,060 [13/Apr/2020:23:07:45] ENGINE Bus STOPPED
+2020-04-13 23:07:45,060 [13/Apr/2020:23:07:45] ENGINE Bus EXITING
+2020-04-13 23:07:45,061 [13/Apr/2020:23:07:45] ENGINE Bus EXITED
+2020-04-13 23:07:45,116 [13/Apr/2020:23:07:45] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:07:45,117 [13/Apr/2020:23:07:45] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:07:45,737 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:07:45,737 Staring NetPlan Serverlet
+2020-04-13 23:07:45,737 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:07:45,738 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:07:45,738 NetObj: gif0, {}
+2020-04-13 23:07:45,738 NetObj: stf0, {}
+2020-04-13 23:07:45,739 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:07:45,739 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:07:45,739 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:07:45,739 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:07:45,739 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:07:45,739 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:45,739 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:45,740 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:45,740 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:45,740 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:07:45,740 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:45,740 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:45,741 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:45,741 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:07:45,741 [13/Apr/2020:23:07:45] ENGINE Listening for SIGTERM.
+2020-04-13 23:07:45,741 [13/Apr/2020:23:07:45] ENGINE Listening for SIGHUP.
+2020-04-13 23:07:45,741 [13/Apr/2020:23:07:45] ENGINE Listening for SIGUSR1.
+2020-04-13 23:07:45,742 [13/Apr/2020:23:07:45] ENGINE Bus STARTING
+2020-04-13 23:07:45,742 [13/Apr/2020:23:07:45] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:07:45,851 [13/Apr/2020:23:07:45] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:07:45,852 [13/Apr/2020:23:07:45] ENGINE Bus STARTED
+2020-04-13 23:08:15,979 [13/Apr/2020:23:08:15] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:08:15,980 [13/Apr/2020:23:08:15] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:08:15,980 [13/Apr/2020:23:08:15] ENGINE Bus STOPPING
+2020-04-13 23:08:15,982 [13/Apr/2020:23:08:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:08:15,982 [13/Apr/2020:23:08:15] ENGINE Bus STOPPED
+2020-04-13 23:08:15,982 [13/Apr/2020:23:08:15] ENGINE Bus EXITING
+2020-04-13 23:08:15,982 [13/Apr/2020:23:08:15] ENGINE Bus EXITED
+2020-04-13 23:08:16,027 [13/Apr/2020:23:08:16] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:08:16,027 [13/Apr/2020:23:08:16] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:08:16,661 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:08:16,661 Staring NetPlan Serverlet
+2020-04-13 23:08:16,661 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:08:16,662 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:08:16,662 NetObj: gif0, {}
+2020-04-13 23:08:16,662 NetObj: stf0, {}
+2020-04-13 23:08:16,663 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:08:16,663 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:08:16,663 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:08:16,663 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:08:16,663 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:08:16,663 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:16,664 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:16,664 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:16,664 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:16,664 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:08:16,664 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:16,665 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:16,665 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:16,665 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:16,665 [13/Apr/2020:23:08:16] ENGINE Listening for SIGTERM.
+2020-04-13 23:08:16,666 [13/Apr/2020:23:08:16] ENGINE Listening for SIGHUP.
+2020-04-13 23:08:16,666 [13/Apr/2020:23:08:16] ENGINE Listening for SIGUSR1.
+2020-04-13 23:08:16,666 [13/Apr/2020:23:08:16] ENGINE Bus STARTING
+2020-04-13 23:08:16,666 [13/Apr/2020:23:08:16] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:08:16,773 [13/Apr/2020:23:08:16] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:08:16,774 [13/Apr/2020:23:08:16] ENGINE Bus STARTED
+2020-04-13 23:08:26,750 [13/Apr/2020:23:08:26] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:08:26,750 [13/Apr/2020:23:08:26] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:08:26,751 [13/Apr/2020:23:08:26] ENGINE Bus STOPPING
+2020-04-13 23:08:26,752 [13/Apr/2020:23:08:26] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:08:26,753 [13/Apr/2020:23:08:26] ENGINE Bus STOPPED
+2020-04-13 23:08:26,753 [13/Apr/2020:23:08:26] ENGINE Bus EXITING
+2020-04-13 23:08:26,753 [13/Apr/2020:23:08:26] ENGINE Bus EXITED
+2020-04-13 23:08:26,787 [13/Apr/2020:23:08:26] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:08:26,787 [13/Apr/2020:23:08:26] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:08:27,605 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:08:27,605 Staring NetPlan Serverlet
+2020-04-13 23:08:27,605 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:08:27,606 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:08:27,606 NetObj: gif0, {}
+2020-04-13 23:08:27,606 NetObj: stf0, {}
+2020-04-13 23:08:27,606 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:08:27,607 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:08:27,607 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:08:27,607 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:08:27,607 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:08:27,607 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:27,607 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:27,608 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:27,608 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:27,608 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:08:27,608 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:27,608 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:27,609 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:27,609 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:27,609 [13/Apr/2020:23:08:27] ENGINE Listening for SIGTERM.
+2020-04-13 23:08:27,609 [13/Apr/2020:23:08:27] ENGINE Listening for SIGHUP.
+2020-04-13 23:08:27,610 [13/Apr/2020:23:08:27] ENGINE Listening for SIGUSR1.
+2020-04-13 23:08:27,610 [13/Apr/2020:23:08:27] ENGINE Bus STARTING
+2020-04-13 23:08:27,610 [13/Apr/2020:23:08:27] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:08:27,718 [13/Apr/2020:23:08:27] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:08:27,719 [13/Apr/2020:23:08:27] ENGINE Bus STARTED
+2020-04-13 23:08:36,688 [13/Apr/2020:23:08:36] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:08:36,689 [13/Apr/2020:23:08:36] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:08:36,689 [13/Apr/2020:23:08:36] ENGINE Bus STOPPING
+2020-04-13 23:08:36,690 [13/Apr/2020:23:08:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:08:36,690 [13/Apr/2020:23:08:36] ENGINE Bus STOPPED
+2020-04-13 23:08:36,691 [13/Apr/2020:23:08:36] ENGINE Bus EXITING
+2020-04-13 23:08:36,691 [13/Apr/2020:23:08:36] ENGINE Bus EXITED
+2020-04-13 23:08:36,696 [13/Apr/2020:23:08:36] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:08:36,697 [13/Apr/2020:23:08:36] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:08:37,416 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:08:37,416 Staring NetPlan Serverlet
+2020-04-13 23:08:37,416 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:08:37,417 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:08:37,417 NetObj: gif0, {}
+2020-04-13 23:08:37,417 NetObj: stf0, {}
+2020-04-13 23:08:37,417 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:08:37,417 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:08:37,417 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:08:37,418 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:08:37,418 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:08:37,418 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:37,419 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:37,419 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:37,419 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:37,419 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:08:37,419 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:37,420 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:37,420 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:37,420 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:08:37,421 [13/Apr/2020:23:08:37] ENGINE Listening for SIGTERM.
+2020-04-13 23:08:37,421 [13/Apr/2020:23:08:37] ENGINE Listening for SIGHUP.
+2020-04-13 23:08:37,421 [13/Apr/2020:23:08:37] ENGINE Listening for SIGUSR1.
+2020-04-13 23:08:37,421 [13/Apr/2020:23:08:37] ENGINE Bus STARTING
+2020-04-13 23:08:37,422 [13/Apr/2020:23:08:37] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:08:37,529 [13/Apr/2020:23:08:37] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:08:37,530 [13/Apr/2020:23:08:37] ENGINE Bus STARTED
+2020-04-13 23:09:45,797 172.16.10.74 - - [13/Apr/2020:23:09:45] "GET /getInstallScript HTTP/1.1" 200 830 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 23:09:59,157 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:09:59,158 172.16.10.74 - - [13/Apr/2020:23:09:59] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:10:00,407 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:10:00,414 172.16.10.74 - - [13/Apr/2020:23:10:00] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:10:40,508 [13/Apr/2020:23:10:40] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:10:40,508 [13/Apr/2020:23:10:40] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:10:40,508 [13/Apr/2020:23:10:40] ENGINE Bus STOPPING
+2020-04-13 23:10:40,510 [13/Apr/2020:23:10:40] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:10:40,510 [13/Apr/2020:23:10:40] ENGINE Bus STOPPED
+2020-04-13 23:10:40,510 [13/Apr/2020:23:10:40] ENGINE Bus EXITING
+2020-04-13 23:10:40,510 [13/Apr/2020:23:10:40] ENGINE Bus EXITED
+2020-04-13 23:10:40,517 [13/Apr/2020:23:10:40] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:10:40,517 [13/Apr/2020:23:10:40] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:10:41,308 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:10:41,308 Staring NetPlan Serverlet
+2020-04-13 23:10:41,308 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:10:41,309 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:10:41,310 NetObj: gif0, {}
+2020-04-13 23:10:41,310 NetObj: stf0, {}
+2020-04-13 23:10:41,310 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:10:41,310 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:10:41,310 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:10:41,311 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:10:41,311 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:10:41,311 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:10:41,311 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:10:41,311 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:10:41,312 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:10:41,312 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:10:41,312 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:10:41,312 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:10:41,312 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:10:41,313 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:10:41,313 [13/Apr/2020:23:10:41] ENGINE Listening for SIGTERM.
+2020-04-13 23:10:41,313 [13/Apr/2020:23:10:41] ENGINE Listening for SIGHUP.
+2020-04-13 23:10:41,313 [13/Apr/2020:23:10:41] ENGINE Listening for SIGUSR1.
+2020-04-13 23:10:41,313 [13/Apr/2020:23:10:41] ENGINE Bus STARTING
+2020-04-13 23:10:41,314 [13/Apr/2020:23:10:41] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:10:41,419 [13/Apr/2020:23:10:41] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:10:41,419 [13/Apr/2020:23:10:41] ENGINE Bus STARTED
+2020-04-13 23:10:44,221 172.16.10.74 - - [13/Apr/2020:23:10:44] "GET /getInstallScript HTTP/1.1" 200 830 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 23:10:57,398 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:10:57,398 172.16.10.74 - - [13/Apr/2020:23:10:57] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:10:58,445 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:10:58,452 172.16.10.74 - - [13/Apr/2020:23:10:58] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:12:29,811 172.16.10.74 - - [13/Apr/2020:23:12:29] "GET /getInstallScript HTTP/1.1" 200 830 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 23:12:42,877 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:12:42,877 172.16.10.74 - - [13/Apr/2020:23:12:42] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:12:43,915 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:12:43,919 172.16.10.74 - - [13/Apr/2020:23:12:43] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:23:56,281 [13/Apr/2020:23:23:56] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:23:56,283 [13/Apr/2020:23:23:56] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:23:56,285 [13/Apr/2020:23:23:56] ENGINE Bus STOPPING
+2020-04-13 23:23:56,294 [13/Apr/2020:23:23:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:23:56,294 [13/Apr/2020:23:23:56] ENGINE Bus STOPPED
+2020-04-13 23:23:56,294 [13/Apr/2020:23:23:56] ENGINE Bus EXITING
+2020-04-13 23:23:56,295 [13/Apr/2020:23:23:56] ENGINE Bus EXITED
+2020-04-13 23:23:56,355 [13/Apr/2020:23:23:56] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:23:56,355 [13/Apr/2020:23:23:56] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:25:08,815 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:25:08,816 Staring NetPlan Serverlet
+2020-04-13 23:25:08,816 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:25:08,817 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:25:08,817 NetObj: gif0, {}
+2020-04-13 23:25:08,817 NetObj: stf0, {}
+2020-04-13 23:25:08,817 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:25:08,817 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:25:08,818 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:25:08,818 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:25:08,818 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:25:08,818 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:25:08,818 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:25:08,818 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:25:08,819 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:25:08,819 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:25:08,819 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:25:08,819 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:25:08,820 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:25:08,820 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:25:08,820 [13/Apr/2020:23:25:08] ENGINE Listening for SIGTERM.
+2020-04-13 23:25:08,820 [13/Apr/2020:23:25:08] ENGINE Listening for SIGHUP.
+2020-04-13 23:25:08,820 [13/Apr/2020:23:25:08] ENGINE Listening for SIGUSR1.
+2020-04-13 23:25:08,821 [13/Apr/2020:23:25:08] ENGINE Bus STARTING
+2020-04-13 23:25:08,821 [13/Apr/2020:23:25:08] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:25:08,928 [13/Apr/2020:23:25:08] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:25:08,928 [13/Apr/2020:23:25:08] ENGINE Bus STARTED
+2020-04-13 23:25:11,612 172.16.10.74 - - [13/Apr/2020:23:25:11] "GET /getInstallScript HTTP/1.1" 200 830 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 23:25:25,741 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:25:25,741 172.16.10.74 - - [13/Apr/2020:23:25:25] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:25:26,791 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:25:26,801 172.16.10.74 - - [13/Apr/2020:23:25:26] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:26:06,328 [13/Apr/2020:23:26:06] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:26:06,329 [13/Apr/2020:23:26:06] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:26:06,329 [13/Apr/2020:23:26:06] ENGINE Bus STOPPING
+2020-04-13 23:26:06,331 [13/Apr/2020:23:26:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:26:06,331 [13/Apr/2020:23:26:06] ENGINE Bus STOPPED
+2020-04-13 23:26:06,331 [13/Apr/2020:23:26:06] ENGINE Bus EXITING
+2020-04-13 23:26:06,332 [13/Apr/2020:23:26:06] ENGINE Bus EXITED
+2020-04-13 23:26:06,436 [13/Apr/2020:23:26:06] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:26:06,436 [13/Apr/2020:23:26:06] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:26:07,011 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:26:07,011 Staring NetPlan Serverlet
+2020-04-13 23:26:07,011 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:26:07,012 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:26:07,012 NetObj: gif0, {}
+2020-04-13 23:26:07,012 NetObj: stf0, {}
+2020-04-13 23:26:07,012 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:26:07,012 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:26:07,013 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:26:07,013 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:26:07,013 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:26:07,013 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:07,013 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:07,013 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:07,014 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:07,014 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:26:07,014 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:07,014 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:07,014 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:07,015 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:07,015 [13/Apr/2020:23:26:07] ENGINE Listening for SIGTERM.
+2020-04-13 23:26:07,015 [13/Apr/2020:23:26:07] ENGINE Listening for SIGHUP.
+2020-04-13 23:26:07,015 [13/Apr/2020:23:26:07] ENGINE Listening for SIGUSR1.
+2020-04-13 23:26:07,015 [13/Apr/2020:23:26:07] ENGINE Bus STARTING
+2020-04-13 23:26:07,016 [13/Apr/2020:23:26:07] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:26:07,124 [13/Apr/2020:23:26:07] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:26:07,125 [13/Apr/2020:23:26:07] ENGINE Bus STARTED
+2020-04-13 23:26:11,327 172.16.10.74 - - [13/Apr/2020:23:26:11] "GET /getInstallScript HTTP/1.1" 200 830 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 23:26:24,502 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:26:24,503 172.16.10.74 - - [13/Apr/2020:23:26:24] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:26:25,567 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:26:25,575 172.16.10.74 - - [13/Apr/2020:23:26:25] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:26:37,305 [13/Apr/2020:23:26:37] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:26:37,305 [13/Apr/2020:23:26:37] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:26:37,305 [13/Apr/2020:23:26:37] ENGINE Bus STOPPING
+2020-04-13 23:26:37,307 [13/Apr/2020:23:26:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:26:37,308 [13/Apr/2020:23:26:37] ENGINE Bus STOPPED
+2020-04-13 23:26:37,308 [13/Apr/2020:23:26:37] ENGINE Bus EXITING
+2020-04-13 23:26:37,308 [13/Apr/2020:23:26:37] ENGINE Bus EXITED
+2020-04-13 23:26:37,396 [13/Apr/2020:23:26:37] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:26:37,396 [13/Apr/2020:23:26:37] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:26:38,056 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:26:38,056 Staring NetPlan Serverlet
+2020-04-13 23:26:38,056 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:26:38,057 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:26:38,057 NetObj: gif0, {}
+2020-04-13 23:26:38,057 NetObj: stf0, {}
+2020-04-13 23:26:38,057 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:26:38,057 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:26:38,057 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:26:38,058 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:26:38,058 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:26:38,058 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:38,058 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:38,058 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:38,059 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:38,059 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:26:38,059 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:38,059 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:38,059 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:38,060 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:26:38,061 [13/Apr/2020:23:26:38] ENGINE Listening for SIGTERM.
+2020-04-13 23:26:38,061 [13/Apr/2020:23:26:38] ENGINE Listening for SIGHUP.
+2020-04-13 23:26:38,061 [13/Apr/2020:23:26:38] ENGINE Listening for SIGUSR1.
+2020-04-13 23:26:38,061 [13/Apr/2020:23:26:38] ENGINE Bus STARTING
+2020-04-13 23:26:38,062 [13/Apr/2020:23:26:38] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:26:38,167 [13/Apr/2020:23:26:38] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:26:38,167 [13/Apr/2020:23:26:38] ENGINE Bus STARTED
+2020-04-13 23:26:45,342 172.16.10.74 - - [13/Apr/2020:23:26:45] "GET /getInstallScript HTTP/1.1" 200 830 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 23:27:00,440 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:27:00,440 172.16.10.74 - - [13/Apr/2020:23:27:00] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:27:01,535 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:27:01,543 172.16.10.74 - - [13/Apr/2020:23:27:01] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:27:50,693 [13/Apr/2020:23:27:50] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:27:50,694 [13/Apr/2020:23:27:50] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:27:50,694 [13/Apr/2020:23:27:50] ENGINE Bus STOPPING
+2020-04-13 23:27:50,696 [13/Apr/2020:23:27:50] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:27:50,696 [13/Apr/2020:23:27:50] ENGINE Bus STOPPED
+2020-04-13 23:27:50,696 [13/Apr/2020:23:27:50] ENGINE Bus EXITING
+2020-04-13 23:27:50,697 [13/Apr/2020:23:27:50] ENGINE Bus EXITED
+2020-04-13 23:27:50,767 [13/Apr/2020:23:27:50] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:27:50,768 [13/Apr/2020:23:27:50] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:27:51,382 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:27:51,382 Staring NetPlan Serverlet
+2020-04-13 23:27:51,382 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:27:51,383 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:27:51,383 NetObj: gif0, {}
+2020-04-13 23:27:51,383 NetObj: stf0, {}
+2020-04-13 23:27:51,384 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:27:51,384 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:27:51,384 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:27:51,384 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:27:51,384 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:27:51,384 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:27:51,385 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:27:51,385 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:27:51,386 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:27:51,386 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:27:51,386 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:27:51,386 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:27:51,386 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:27:51,387 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:27:51,387 [13/Apr/2020:23:27:51] ENGINE Listening for SIGTERM.
+2020-04-13 23:27:51,387 [13/Apr/2020:23:27:51] ENGINE Listening for SIGHUP.
+2020-04-13 23:27:51,387 [13/Apr/2020:23:27:51] ENGINE Listening for SIGUSR1.
+2020-04-13 23:27:51,387 [13/Apr/2020:23:27:51] ENGINE Bus STARTING
+2020-04-13 23:27:51,388 [13/Apr/2020:23:27:51] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:27:51,495 [13/Apr/2020:23:27:51] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:27:51,495 [13/Apr/2020:23:27:51] ENGINE Bus STARTED
+2020-04-13 23:39:15,425 172.16.10.74 - - [13/Apr/2020:23:39:15] "GET /getInstallScript HTTP/1.1" 200 843 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 23:39:29,951 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:39:29,952 172.16.10.74 - - [13/Apr/2020:23:39:29] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:39:30,993 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:39:31,000 [13/Apr/2020:23:39:31] HTTP 
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py", line 140, in networkinterfaces
+    return intstr
+NameError: name 'intstr' is not defined
+2020-04-13 23:39:31,006 [13/Apr/2020:23:39:31] HTTP 
+Request Headers:
+  Remote-Addr: 172.16.10.74
+  HOST: 172.16.10.54:6001
+  USER-AGENT: curl/7.64.0
+  ACCEPT: */*
+2020-04-13 23:39:31,007 172.16.10.74 - - [13/Apr/2020:23:39:31] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 500 1723 "" "curl/7.64.0"
+2020-04-13 23:40:01,976 [13/Apr/2020:23:40:01] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-13 23:40:01,976 [13/Apr/2020:23:40:01] ENGINE Stopped thread 'Autoreloader'.
+2020-04-13 23:40:01,976 [13/Apr/2020:23:40:01] ENGINE Bus STOPPING
+2020-04-13 23:40:01,978 [13/Apr/2020:23:40:01] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-13 23:40:01,979 [13/Apr/2020:23:40:01] ENGINE Bus STOPPED
+2020-04-13 23:40:01,979 [13/Apr/2020:23:40:01] ENGINE Bus EXITING
+2020-04-13 23:40:01,979 [13/Apr/2020:23:40:01] ENGINE Bus EXITED
+2020-04-13 23:40:02,032 [13/Apr/2020:23:40:02] ENGINE Waiting for child threads to terminate...
+2020-04-13 23:40:02,032 [13/Apr/2020:23:40:02] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-13 23:40:03,138 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-13 23:40:03,138 Staring NetPlan Serverlet
+2020-04-13 23:40:03,138 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-13 23:40:03,139 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-13 23:40:03,139 NetObj: gif0, {}
+2020-04-13 23:40:03,139 NetObj: stf0, {}
+2020-04-13 23:40:03,140 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-13 23:40:03,140 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:40:03,140 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-13 23:40:03,140 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-13 23:40:03,140 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-13 23:40:03,140 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:40:03,141 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:40:03,141 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:40:03,141 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:40:03,141 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-13 23:40:03,141 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:40:03,142 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:40:03,142 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:40:03,142 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-13 23:40:03,142 [13/Apr/2020:23:40:03] ENGINE Listening for SIGTERM.
+2020-04-13 23:40:03,143 [13/Apr/2020:23:40:03] ENGINE Listening for SIGHUP.
+2020-04-13 23:40:03,143 [13/Apr/2020:23:40:03] ENGINE Listening for SIGUSR1.
+2020-04-13 23:40:03,143 [13/Apr/2020:23:40:03] ENGINE Bus STARTING
+2020-04-13 23:40:03,143 [13/Apr/2020:23:40:03] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-13 23:40:03,253 [13/Apr/2020:23:40:03] ENGINE Serving on http://0.0.0.0:6001
+2020-04-13 23:40:03,253 [13/Apr/2020:23:40:03] ENGINE Bus STARTED
+2020-04-13 23:40:14,344 172.16.10.74 - - [13/Apr/2020:23:40:14] "GET /getInstallScript HTTP/1.1" 200 843 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-13 23:40:29,884 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:40:29,885 172.16.10.74 - - [13/Apr/2020:23:40:29] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-13 23:40:31,026 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-13 23:40:31,034 172.16.10.74 - - [13/Apr/2020:23:40:31] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 688 "" "curl/7.64.0"
+2020-04-14 00:33:32,113 172.16.10.74 - - [14/Apr/2020:00:33:32] "GET /getInstallScript HTTP/1.1" 200 844 "" "Wget/1.20.1 (linux-gnu)"
+2020-04-14 00:33:50,659 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-14 00:33:50,659 172.16.10.74 - - [14/Apr/2020:00:33:50] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-14 00:33:51,697 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-14 00:33:51,701 172.16.10.74 - - [14/Apr/2020:00:33:51] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 688 "" "curl/7.64.0"
+2020-04-14 01:05:21,118 Recieved Appliance Def: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-14 01:05:21,121 172.16.10.74 - - [14/Apr/2020:01:05:21] "GET /registerhost?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 - "" "curl/7.64.0"
+2020-04-14 01:05:22,298 NetworkDef: bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg==
+2020-04-14 01:05:22,305 172.16.10.74 - - [14/Apr/2020:01:05:22] "GET /networkinterfaces?appldef=bG87ZW5wMXMwO2VucDJzMDtlbnAzczA7ZW5wNHMwCg== HTTP/1.1" 200 688 "" "curl/7.64.0"
+2020-04-14 01:22:49,595 [14/Apr/2020:01:22:49] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-14 01:22:49,597 [14/Apr/2020:01:22:49] ENGINE Stopped thread 'Autoreloader'.
+2020-04-14 01:22:49,597 [14/Apr/2020:01:22:49] ENGINE Bus STOPPING
+2020-04-14 01:22:49,600 [14/Apr/2020:01:22:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-14 01:22:49,600 [14/Apr/2020:01:22:49] ENGINE Bus STOPPED
+2020-04-14 01:22:49,600 [14/Apr/2020:01:22:49] ENGINE Bus EXITING
+2020-04-14 01:22:49,600 [14/Apr/2020:01:22:49] ENGINE Bus EXITED
+2020-04-14 01:22:49,682 [14/Apr/2020:01:22:49] ENGINE Waiting for child threads to terminate...
+2020-04-14 01:22:49,682 [14/Apr/2020:01:22:49] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-14 01:22:50,927 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-14 01:22:50,927 Staring NetPlan Serverlet
+2020-04-14 01:22:50,927 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-14 01:22:50,928 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-14 01:22:50,928 NetObj: gif0, {}
+2020-04-14 01:22:50,929 NetObj: stf0, {}
+2020-04-14 01:22:50,929 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-14 01:22:50,929 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-14 01:22:50,929 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-14 01:22:50,929 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-14 01:22:50,929 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-14 01:22:50,930 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:22:50,930 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:22:50,930 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:22:50,930 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:22:50,930 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-14 01:22:50,931 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:22:50,931 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:22:50,931 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:22:50,931 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:22:50,932 [14/Apr/2020:01:22:50] ENGINE Listening for SIGTERM.
+2020-04-14 01:22:50,932 [14/Apr/2020:01:22:50] ENGINE Listening for SIGHUP.
+2020-04-14 01:22:50,932 [14/Apr/2020:01:22:50] ENGINE Listening for SIGUSR1.
+2020-04-14 01:22:50,932 [14/Apr/2020:01:22:50] ENGINE Bus STARTING
+2020-04-14 01:22:50,933 [14/Apr/2020:01:22:50] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-14 01:22:51,041 [14/Apr/2020:01:22:51] ENGINE Serving on http://0.0.0.0:6001
+2020-04-14 01:22:51,041 [14/Apr/2020:01:22:51] ENGINE Bus STARTED
+2020-04-14 01:23:09,093 [14/Apr/2020:01:23:09] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-14 01:23:09,093 [14/Apr/2020:01:23:09] ENGINE Stopped thread 'Autoreloader'.
+2020-04-14 01:23:09,093 [14/Apr/2020:01:23:09] ENGINE Bus STOPPING
+2020-04-14 01:23:09,095 [14/Apr/2020:01:23:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-14 01:23:09,095 [14/Apr/2020:01:23:09] ENGINE Bus STOPPED
+2020-04-14 01:23:09,095 [14/Apr/2020:01:23:09] ENGINE Bus EXITING
+2020-04-14 01:23:09,095 [14/Apr/2020:01:23:09] ENGINE Bus EXITED
+2020-04-14 01:23:09,166 [14/Apr/2020:01:23:09] ENGINE Waiting for child threads to terminate...
+2020-04-14 01:23:09,166 [14/Apr/2020:01:23:09] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-14 01:23:09,805 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-14 01:23:09,805 Staring NetPlan Serverlet
+2020-04-14 01:23:09,805 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-14 01:23:09,807 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-14 01:23:09,807 NetObj: gif0, {}
+2020-04-14 01:23:09,807 NetObj: stf0, {}
+2020-04-14 01:23:09,807 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-14 01:23:09,808 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-14 01:23:09,808 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-14 01:23:09,808 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-14 01:23:09,808 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-14 01:23:09,808 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:09,809 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:09,809 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:09,809 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:09,809 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-14 01:23:09,809 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:09,810 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:09,810 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:09,810 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:09,810 [14/Apr/2020:01:23:09] ENGINE Listening for SIGTERM.
+2020-04-14 01:23:09,811 [14/Apr/2020:01:23:09] ENGINE Listening for SIGHUP.
+2020-04-14 01:23:09,811 [14/Apr/2020:01:23:09] ENGINE Listening for SIGUSR1.
+2020-04-14 01:23:09,811 [14/Apr/2020:01:23:09] ENGINE Bus STARTING
+2020-04-14 01:23:09,811 [14/Apr/2020:01:23:09] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-14 01:23:09,920 [14/Apr/2020:01:23:09] ENGINE Serving on http://0.0.0.0:6001
+2020-04-14 01:23:09,920 [14/Apr/2020:01:23:09] ENGINE Bus STARTED
+2020-04-14 01:23:39,066 [14/Apr/2020:01:23:39] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-14 01:23:39,066 [14/Apr/2020:01:23:39] ENGINE Stopped thread 'Autoreloader'.
+2020-04-14 01:23:39,066 [14/Apr/2020:01:23:39] ENGINE Bus STOPPING
+2020-04-14 01:23:39,068 [14/Apr/2020:01:23:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-14 01:23:39,068 [14/Apr/2020:01:23:39] ENGINE Bus STOPPED
+2020-04-14 01:23:39,068 [14/Apr/2020:01:23:39] ENGINE Bus EXITING
+2020-04-14 01:23:39,068 [14/Apr/2020:01:23:39] ENGINE Bus EXITED
+2020-04-14 01:23:39,080 [14/Apr/2020:01:23:39] ENGINE Waiting for child threads to terminate...
+2020-04-14 01:23:39,080 [14/Apr/2020:01:23:39] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-14 01:23:39,624 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-14 01:23:39,624 Staring NetPlan Serverlet
+2020-04-14 01:23:39,624 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-14 01:23:39,625 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-14 01:23:39,625 NetObj: gif0, {}
+2020-04-14 01:23:39,625 NetObj: stf0, {}
+2020-04-14 01:23:39,625 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-14 01:23:39,625 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-14 01:23:39,626 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-14 01:23:39,626 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-14 01:23:39,626 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-14 01:23:39,626 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:39,626 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:39,626 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:39,627 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:39,627 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-14 01:23:39,627 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:39,627 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:39,627 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:39,628 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:23:39,628 [14/Apr/2020:01:23:39] ENGINE Listening for SIGTERM.
+2020-04-14 01:23:39,628 [14/Apr/2020:01:23:39] ENGINE Listening for SIGHUP.
+2020-04-14 01:23:39,628 [14/Apr/2020:01:23:39] ENGINE Listening for SIGUSR1.
+2020-04-14 01:23:39,628 [14/Apr/2020:01:23:39] ENGINE Bus STARTING
+2020-04-14 01:23:39,629 [14/Apr/2020:01:23:39] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-14 01:23:39,735 [14/Apr/2020:01:23:39] ENGINE Serving on http://0.0.0.0:6001
+2020-04-14 01:23:39,736 [14/Apr/2020:01:23:39] ENGINE Bus STARTED
+2020-04-14 01:26:30,059 [14/Apr/2020:01:26:30] ENGINE Restarting because /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py changed.
+2020-04-14 01:26:30,059 [14/Apr/2020:01:26:30] ENGINE Stopped thread 'Autoreloader'.
+2020-04-14 01:26:30,059 [14/Apr/2020:01:26:30] ENGINE Bus STOPPING
+2020-04-14 01:26:30,061 [14/Apr/2020:01:26:30] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-14 01:26:30,061 [14/Apr/2020:01:26:30] ENGINE Bus STOPPED
+2020-04-14 01:26:30,061 [14/Apr/2020:01:26:30] ENGINE Bus EXITING
+2020-04-14 01:26:30,061 [14/Apr/2020:01:26:30] ENGINE Bus EXITED
+2020-04-14 01:26:30,102 [14/Apr/2020:01:26:30] ENGINE Waiting for child threads to terminate...
+2020-04-14 01:26:30,103 [14/Apr/2020:01:26:30] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/NetPlanner/NetPlanner.py
+2020-04-14 01:26:31,166 Static dir: /Users/navendusinha/PycharmProjects/NetPlanner/ui_www 
+2020-04-14 01:26:31,167 Staring NetPlan Serverlet
+2020-04-14 01:26:31,167 Setting static directory as, /Users/navendusinha/PycharmProjects/NetPlanner/ui_www
+2020-04-14 01:26:31,168 NetObj: lo0, {'ipv4': {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'peer': '127.0.0.1'}, 'ipv6': {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/128', 'peer': '::1', 'flags': 0}}
+2020-04-14 01:26:31,168 NetObj: gif0, {}
+2020-04-14 01:26:31,168 NetObj: stf0, {}
+2020-04-14 01:26:31,168 NetObj: en0, {'mac': {'addr': '6c:40:08:93:ef:6a'}, 'ipv4': {'addr': '172.16.10.54', 'netmask': '255.255.255.0', 'broadcast': '172.16.10.255'}, 'ipv6': {'addr': 'fe80::caa:75ec:5e64:c46a%en0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 1024}}
+2020-04-14 01:26:31,168 NetObj: en1, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-14 01:26:31,168 NetObj: en2, {'mac': {'addr': '82:0f:15:a0:ce:81'}}
+2020-04-14 01:26:31,168 NetObj: bridge0, {'mac': {'addr': '82:0f:15:a0:ce:80'}}
+2020-04-14 01:26:31,169 NetObj: p2p0, {'mac': {'addr': '0e:40:08:93:ef:6a'}}
+2020-04-14 01:26:31,169 NetObj: awdl0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%awdl0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:26:31,169 NetObj: llw0, {'mac': {'addr': 'a2:c7:e7:c7:da:f2'}, 'ipv6': {'addr': 'fe80::a0c7:e7ff:fec7:daf2%llw0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:26:31,169 NetObj: utun0, {'ipv6': {'addr': 'fe80::92:31b3:465:aba1%utun0', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:26:31,169 NetObj: utun1, {'ipv6': {'addr': 'fe80::c22a:19c8:7770:7704%utun1', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:26:31,170 NetObj: vboxnet0, {'mac': {'addr': '0a:00:27:00:00:00'}}
+2020-04-14 01:26:31,170 NetObj: utun2, {'ipv6': {'addr': 'fe80::3a0:da2c:5e4e:38b8%utun2', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:26:31,170 NetObj: utun3, {'ipv6': {'addr': 'fe80::7208:b5fb:2ca8:3196%utun3', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:26:31,170 NetObj: utun4, {'ipv6': {'addr': 'fe80::b3c0:1562:d981:dd52%utun4', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:26:31,170 NetObj: utun5, {'ipv6': {'addr': 'fe80::6a6d:6f2c:137f:763a%utun5', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'flags': 0}}
+2020-04-14 01:26:31,171 [14/Apr/2020:01:26:31] ENGINE Listening for SIGTERM.
+2020-04-14 01:26:31,171 [14/Apr/2020:01:26:31] ENGINE Listening for SIGHUP.
+2020-04-14 01:26:31,171 [14/Apr/2020:01:26:31] ENGINE Listening for SIGUSR1.
+2020-04-14 01:26:31,171 [14/Apr/2020:01:26:31] ENGINE Bus STARTING
+2020-04-14 01:26:31,172 [14/Apr/2020:01:26:31] ENGINE Started monitor thread 'Autoreloader'.
+2020-04-14 01:26:31,280 [14/Apr/2020:01:26:31] ENGINE Serving on http://0.0.0.0:6001
+2020-04-14 01:26:31,280 [14/Apr/2020:01:26:31] ENGINE Bus STARTED
+2020-04-22 00:36:23,767 127.0.0.1 - - [22/Apr/2020:00:36:23] "GET / HTTP/1.1" 200 5603 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15"
+2020-04-22 15:17:04,918 [22/Apr/2020:15:17:04] ENGINE Keyboard Interrupt: shutting down bus
+2020-04-22 15:17:04,924 [22/Apr/2020:15:17:04] ENGINE Bus STOPPING
+2020-04-22 15:17:04,962 [22/Apr/2020:15:17:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 6001)) shut down
+2020-04-22 15:17:04,963 [22/Apr/2020:15:17:04] ENGINE Stopped thread 'Autoreloader'.
+2020-04-22 15:17:04,963 [22/Apr/2020:15:17:04] ENGINE Bus STOPPED
+2020-04-22 15:17:04,963 [22/Apr/2020:15:17:04] ENGINE Bus EXITING
+2020-04-22 15:17:04,963 [22/Apr/2020:15:17:04] ENGINE Bus EXITED
+2020-04-22 15:17:04,963 [22/Apr/2020:15:17:04] ENGINE Waiting for child threads to terminate...

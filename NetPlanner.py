@@ -8,6 +8,7 @@ import logging, json
 import datetime, time, os, sys, shutil
 import subprocess, argparse, yaml, re
 import base64
+from jinja2 import Environment, FileSystemLoader
 
 import cherrypy as NetPlanner
 from netplanbuffers import cmdbuffers
@@ -99,9 +100,58 @@ class NetPlan(object):
         infostr = base64.b64decode(appldef+"==").decode('utf-8')
         print(infostr)
         infoarr = infostr.split(';')
-        for ninfo in infoarr:
-            print(ninfo)
+        for netinf in infoarr:
+            netinf = netinf.strip()
+            print(netinf)
 
+    @NetPlanner.expose
+    def networkinterfaces(self, appldef):
+        """
+        Generates a Network Interface file
+        :param intfstr:
+        :return:
+        """
+        logging.info("NetworkDef: {}".format(appldef))
+        appldefs = appldef.strip()
+        print(appldef)
+        infostr = base64.b64decode(appldef + "==").decode('utf-8')
+        print(infostr)
+        infoarr = infostr.split(';')
+
+        env = Environment(loader=FileSystemLoader('./netplantemplates'),
+                          trim_blocks=True, lstrip_blocks=True)
+        template = env.get_template('networkinterfaces')
+
+        netconfig = []
+        subnet = 10
+        for netinf in infoarr[2:]:
+            netinf = netinf.strip()
+
+            netconfig.append({'name': netinf,
+                              'address': '10.{}.0.1'.format(subnet),
+                              'netmask': '255.255.255.0',
+                              'network': '10.{}.0.0'.format(subnet),
+                              'broadcast' : '10.{}.0.255'.format(subnet)
+                              })
+            subnet += 10
+
+        intfstr  = template.render(intfs=netconfig)
+
+        return intfstr
+
+    @NetPlanner.expose
+    def dhcpinftf(self, appldef):
+        """
+        Generates a Network Interface file
+        :param intfstr:
+        :return:
+        """
+        logging.info("NetworkDef: {}".format(appldef))
+        appldefs = appldef.strip()
+        print(appldef)
+        infostr = base64.b64decode(appldef + "==").decode('utf-8')
+        print(infostr)
+        infoarr = infostr.split(';')
 
 
     @NetPlanner.expose

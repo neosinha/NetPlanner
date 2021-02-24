@@ -51,15 +51,6 @@ class InterfaceGenerator(object):
         #print(netobjs)
         return netobjs
 
-    def ethInterfaceGen(self, intflist):
-        """
-        Generates a Network Interface file
-
-        :param intflist:
-        :return:
-        """
-        for key, value in intflist.items():
-            print("Intf: {}".format(key))
 
 
 
