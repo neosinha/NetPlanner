@@ -34,25 +34,34 @@ function networkInfo() {
 	var divx = ui.createElement('div', 'networkview');
 	var interfaces = []; 
 	for(var k in networkObj) interfaces.push(k);
-	var header = ['Interface', 'MAC', 'IPv4' ,'IPv6','Active'];
+	var header = ['Interface', 'MAC', 'IPv4' , 'Active'];
 	var tbldata = new Array();
 	for (i=0; i < interfaces.length; i++) {
+	    var active = false;
+
 		var intf = interfaces[i];
 		var netport = networkObj[intf];
 		console.log('==' + interfaces[i]);
 		console.log(intf + ':' + JSON.stringify(netport) );
 		var mac = ''; 
 		var ipv4 = '';
-		var ipv6 = ''; 
+		var ipv6 = '';
+
 		if ('mac' in netport) {
 			mac = netport['mac']['addr'];
 			mac = mac.toUpperCase();
 		}
 		
 		if ('ipv4' in netport) {
-			ipv4 = netport['ipv4']['addr'] + '<BR>' + netport['ipv4']['netmask'] + '<BR>' + netport['ipv4']['broadcast']; 
+			ipv4 = netport['ipv4']['addr'] + '<BR>' + netport['ipv4']['netmask'] + '<BR>' + netport['ipv4']['broadcast'];
+			if (netport['ipv4'] === "")  {
+			    active = false;
+			} else {
+			    active = true;
+			}
 		}
-		
+
+
 		if ('ipv6' in netport) {
 			ipv6 = netport['ipv6']['addr'] + '<BR>' + netport['ipv6']['netmask']; 
 		}
@@ -62,7 +71,10 @@ function networkInfo() {
 		    intf = '<img class="neticon" src="img/eth0-32x32.png">' + '<BR>'+intf + '</img>';
 		}
 		
-		tbldata.push( [intf, mac.toUpperCase(), ipv4.toUpperCase(), ipv6.toUpperCase(), 'Active'] );
+		//tbldata.push( [intf, mac.toUpperCase(), ipv4.toUpperCase(), ipv6.toUpperCase(), 'Active'] );
+		if (active) {
+		    tbldata.push( [intf, mac.toUpperCase(), ipv4.toUpperCase(),  'Active'] );
+		}
 	}
 	
 	var tbl = ui.table('networktable', 'striped', header, tbldata );
