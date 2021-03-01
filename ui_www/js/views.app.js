@@ -2,6 +2,119 @@
 // or bigger/composite UI view elements
 ui = new Bootstrap();
 
+
+var pktMetrics = null;
+
+var UIViews = function() {
+
+    this.statsViewInit = function() {
+        var v = ui.createElement('div', 'statsview');
+        //<canvas id="myChart" width="400" height="400"></canvas>
+        var can = ui.createElement('canvas', 'statschart');
+        can.setAttribute('width', '480');
+        can.setAttribute('height', '480');
+
+        v.appendChild(can);
+
+        return v;
+    }
+
+
+    this.updatepktstats = function(msg) {
+        console.log('Stats: '+ msg);
+        var pktstats = JSON.parse(msg);
+        var divx = document.getElementById('statsview');
+        divx.innerHTML = '';
+
+        for (i=0; i < pktstats.length; i++) {
+            var pktst = pktstats[i];
+            var p = ui.createElement('p', 'intf'+i);
+            var intfname = pktst['intf'];
+
+            if (!pktMetrics.hasOwnProperty(intfname)) {
+                pktMetrics[intfname] = new Array();
+            }
+
+            var datex = new Date(pktst['epoch']);
+            p.innerHTML = '<em>'+pktst['intf']+'</em>' + ' '+ datex.toString()  + ' '+ pktst['stats'][0];
+            divx.appendChild(p);
+
+            pktMetrics.push({'label' : datex.toString(), 'data' : pktst['stats'][0];})
+            if (pktMetrics.length > 5) {
+                pktMetrics.pop();
+            }
+
+        }
+    }
+
+
+
+
+   this.loadLandingView = function() {
+
+		var h1x = ui.h3(null, '', [{'name' : 'class', 'value' : 'mainlogo text-center' }]);
+		var jum = ui.jumbotron('view1', h1x,' bg-basic');
+
+
+		//create tab area
+		var tabs = new Array();
+
+
+		tabs.push({'name' : "<span class='maintab'>System</span>" ,
+			'content' : systemView() });
+
+		tabs.push({'name' : "<span class='maintab'>Interfaces</span>" ,
+					'content' : networkInfo() });
+
+		tabs.push({'name' : "<span class='maintab'>Stats</span>" ,
+					'content' : view.statsViewInit() });
+
+
+		tabs.push({'name' : "<span class='maintab'>Firewall</span>" ,
+					'content' : firewallView() });
+
+		navtabs= ui.navtabs('tabbed', 'justified bg-basic text-warning', tabs );
+
+
+		//var inpbar = jum.appendChild(inpx2);
+		/*var clockdiv = ui.createElement('div', 'clock');
+		clockdiv.setAttribute('class', 'clock');
+		jum.appendChild(clockdiv);
+		*/
+
+		//jum.appendChild(ui.hr() );
+		//var guagearea = ui.createElement('div', 'guagearea');
+		//guagearea.appendChild(productionView1());
+
+		//jum.appendChild(packetLayout());
+		var resultarea = ui.createElement('div', 'results');
+
+		var notifyarea = ui.createElement('div', 'notify');
+
+		//jum.appendChild(farStatusForm());
+		jum.appendChild(navtabs);
+//		/jum.appendChild(guagearea);
+		jum.appendChild(resultarea);
+
+		//jum.appendChild(xmlarea);
+		jum.appendChild(notifyarea);
+
+
+
+		ui.addSubViewToMain([jum]);
+
+		$('#modalheader').html('');
+		$('#modalbody').html('uuuu');
+		$('#modalfooter').html('');
+
+		$('#serialnumber').val('1917Q-20112');
+		$('#partnum').val('800939-00-04');
+    }
+
+
+};
+
+
 function appNavBar() {
 	//navbar = ui.navbar("navarea", '<img align="middle" class="logo-img" src="img/logo-header-psi.png"></img>');
 	navbar = ui.navbar("navarea", '<span class="brand">'+
@@ -82,6 +195,7 @@ function networkInfo() {
 	divx.appendChild(tbl);
 	 
 	var hr = ui.hr();
+
 	hr.setAttribute('class', 'top');
 	divx.appendChild(hr);
 	return divx; 

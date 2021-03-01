@@ -1,9 +1,6 @@
-
-function getServicesServer() {
-	serviceserver = 'https://api.sinhallc.com/webservices';
-	
-	return serviceserver;
-}
+var serverLocation = location.host;
+var server = "http://" + serverLocation ;
+console.log("Location: "+ server);
 
 
 function authFunc() {
@@ -13,6 +10,9 @@ function authFunc() {
 	url = getServicesServer()+'/authaccount?accountid='+username.trim()+'&password='+password.trim()+'&service=smsgateway';
 	ajaxLoad(authCallBack, url);
 }
+
+
+
 
 
 function register() {
@@ -58,6 +58,13 @@ function register() {
 	
 }
 
+var WebServices = function () {
 
+    this.getstats = function() {
+        console.log( 'Get Stats ..');
+        var urlx =  '/getnetstats';
+        $.ajax({url: urlx,
+            success: view.updatepktstats });
+    }
 
-
+}

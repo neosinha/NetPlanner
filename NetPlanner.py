@@ -12,7 +12,7 @@ from jinja2 import Environment, FileSystemLoader
 
 import cherrypy as NetPlanner
 from netplanbuffers import cmdbuffers
-import netifaces
+import netifaces, psutil
 
 logging.basicConfig(filename='netplanner-server.log',level=logging.DEBUG, format='%(asctime)s %(message)s')
 handler = logging.StreamHandler(sys.stdout)
@@ -138,6 +138,32 @@ class NetPlan(object):
         intfstr  = template.render(intfs=netconfig)
 
         return intfstr
+
+    @NetPlanner.expose
+    def getnetstats(self):
+        """
+        Load Packet Stats
+        :return:
+        """
+        netstatx = psutil.net_io_counters(pernic=True)
+        netstats = []
+
+        for itf, stats in netstatx.items():
+            #print("Intf: {} / {}, {}".format(itf, stats[0], stats[1], stats[4], stats[5], stats[6], stats[7]))
+            netstats.append({'intf': itf, 'epoch': self.epoch(), 'stats': stats})
+
+        return json.dumps(netstats)
+
+
+
+    def epoch(self):
+        """
+        Returns System Time
+        :return:
+        """
+        epc = int(time.time() * 1000)
+        return epc
+
 
     @NetPlanner.expose
     def dhcpinftf(self, appldef):
