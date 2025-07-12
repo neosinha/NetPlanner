@@ -117,6 +117,12 @@ class RouterConfigGenerator:
                                             ip_bases=['10.21.0.0', '10.20.0.0', '10.30.0.0', '10.40.0.0'])
         return iptables_str
 
+    @HttpServer.expose
+    def setbackup(self, data, bkup):
+        """
+        Upload backup files
+        """
+
 
     def generate_netplan(self, interfaces, ip_bases):
         """
