@@ -1,0 +1,83 @@
+#!/bin/bash
+set -e
+hostname=$1
+if  [ "$#" -ne 1 ]; then
+    echo "Uasge: installrouterconfig <hostipaddress> including port number."
+    echo "Example: installrouterconfig 10.10.0.56:9007"
+    exit
+fi
+stdt=$(date)
+clear
+echo "== Host Name: $hostname"
+echo "=== Updating System, started $stdt  ==="
+sleep 1
+sudo apt-get -y update
+sudo apt-get -y install dmidecode
+sudo apt-get -y install curl
+sudo apt-get -y install dnsmasq
+sudo apt-get -y install iptables-persistent
+echo ""
+
+suffix=$(date "+%y%m%d-%H%M%S")
+backupdir="$suffix"
+mkdir -p $backupdir
+ls -al $backupdir
+pwd
+
+stdt=$(date)
+echo "✅=== Starting setup at $stdt  ==="
+#netinfo=$(ip a | grep ^[0-9]*:.*: | sed 's/^[0-9]*://g' | sed 's/^ //g' | sed 's/:.*$//g' | sed ':a;N;$!ba;s/\n/;/g' | base64)
+netinfo=$(ls -1 /sys/class/net | grep -v lo |  sed ':a;N;$!ba;s/\n/;/g' ; echo "#" ;cat /sys/class/net/*/address | grep -v 00:00:00:00 | sed ':a;N;$!ba;s/\n/;/g')
+b64str=$(echo $netinfo | sed ':a;N;$!ba;s/\n/#/g' | base64 -w 0)
+
+pwd
+curl "http://$hostname:9200/getdnsmasq?data=$b64str"  > dnsmasq.conf
+ls -1
+cat dnsmasq.conf
+sudo cp -vf /etc/dnsmasq.conf $backupdir
+sleep 1
+
+curl "http://$hostname:9200/getnetplan?data=$b64str"  > $suffix-netplan.yaml
+ls -1
+cat $suffix-netplan.yaml
+sudo cp -vf /etc/netplan/*.yaml $backupdir
+sudo cp ./$suffix-netplan.yaml /etc/netplan/.
+sleep 1
+
+
+curl "http://$hostname:9200/getiptables?data=$b64str"  > setup_iptables
+ls -1
+chmod +x setup_iptables
+cat setup_iptables
+sleep 1
+
+
+if grep -q "^net.ipv4.ip_forward=1" /etc/sysctl.conf; then
+    echo "✅ IPv4 forwarding is already enabled in sysctl.conf."
+else
+    # Comment out any existing ip_forward lines
+    sudo sed -i '/^net\.ipv4\.ip_forward[[:space:]]*=.*/s/^/#/' /etc/sysctl.conf
+
+    # Append the correct line
+    echo "🔧 Enabling IPv4 forwarding..."
+    echo "net.ipv4.ip_forward=1" | sudo tee -a /etc/sysctl.conf > /dev/null
+fi
+
+# Apply the setting immediately
+sudo sysctl -w net.ipv4.ip_forward=1
+
+echo "✅ IPv4 forwarding is now active and persistent."
+echo "✅ Applying Netplan"
+sudo netplan apply
+sleep 1
+echo "✅=== Cleaning Up ===="
+pwd
+echo ""
+ls -1
+
+date
+sleep 1
+
+sudo mv -vf "$backupdir" ../routerbackup/.
+echo "✅Finished Install"
+cd ..

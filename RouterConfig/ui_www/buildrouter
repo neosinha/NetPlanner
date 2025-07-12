@@ -1,0 +1,20 @@
+#!/bin/bash
+set -e
+hostname=$1
+if  [ "$#" -ne 1 ]; then
+    echo "Uasge: installrouterconfig <hostipaddress> including port number."
+    echo "Example: installrouterconfig 10.10.0.56:9007"
+    exit
+fi
+stdt=$(date)
+#backup dir
+mkdir -p routerbackup
+mkdir -p routerconfig
+cd routerconfig
+curl "http://$hostname:9200/getinstallscript" > routerscript
+chmod +x ./routerscript
+sleep 1
+./routerscript $hostname
+cd ..
+rm -rfv routerconfig
+
